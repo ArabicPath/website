@@ -1,0 +1,2067 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+			rel="shortcut icon"
+			href="../favicon.ico"
+	/>	
+	<meta name="author" content="arabicpath.com">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" 			rel="stylesheet">
+
+	<link rel="stylesheet" href="include-basic/main.css">
+
+	<!-- google analytics starts-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH4CKN13C8"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-QH4CKN13C8');
+		</script>
+	<!-- google analytics  ends--> 
+
+<style>
+
+/* extras start */
+
+blockquote {
+   font-size: 1.2rem;
+}
+
+
+blockquote span::before,
+blockquote span::after {
+   content: "“";
+   font-family: Georgia;
+   font-size: 3.5rem;
+   margin: -1rem 0 0 -2rem;
+   position: absolute;
+   opacity: 0.5;
+}
+blockquote span::after {
+   content: "”";
+   margin: 0.3rem 3rem 0 0.5rem;
+}
+
+blockquote cite {
+   /* font-size: 1.5rem; */
+}
+
+.ex1 {
+      background-color: #c8dcea;
+      padding: 8px 10px;
+      border-top: 2px solid #4381ad;
+      
+   }
+
+   .ex2 {
+      background-color: #dae7f1;
+      padding: 8px 10px;
+      border-top: 2px solid #4381ad;
+      
+   }
+
+   .hidden {
+      color: #04AA6D;
+      font-size: 1.7rem;
+      font-weight: bold;		
+      display: none;
+   }
+
+   .hidden2 {
+      color: #04AA6D;
+      font-size: 1.7rem;
+      font-weight: bold;		
+      display: none;	
+   }
+
+      
+   .toggle{
+      text-align: center;
+   }
+
+   #hide1 {
+      padding: 10px 10px;
+      font-size: 1.2rem;
+      margin: 15px auto;
+      color: white;
+      background-color: #4381ad;
+      outline: none;
+      cursor: pointer;
+      border: none;
+   }
+
+   #show1 {
+      padding: 10px 10px;
+      font-size: 1.2rem;
+      margin: 15px auto;
+      color: white;
+      background-color: #4381ad;
+      outline: none;
+      cursor: pointer;
+      border: none;
+   }
+
+   /* extras end */
+
+   .arab-para {
+      direction: rtl;
+      text-align: right;
+      font-family: calibri, tahoma, sans-serif;
+      font-size: 2.8rem;
+      margin-top: 2px;
+      margin-bottom: 2px;
+   }
+
+   .rtl {
+      direction: rtl;
+      }
+
+   .right{
+      text-align: right;
+   }
+
+   .center {
+      text-align: center;
+   }
+
+   .arabic {
+      font-family: calibri, tahoma, sans-serif;
+      font-size: 2.8rem;
+      /* line-height: 2.8rem; */
+      line-height: 3.5rem;
+   }
+
+   .arabic-audio {
+      height: 30px;
+      width: 110px;
+      /* vertical-align: text-bottom; */
+   }
+
+   /* table start */
+            
+      .table2 {
+      text-align: center;
+      border-collapse: collapse;
+      width: 100%;
+      }
+
+      .table2 td, .table2 th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      }
+
+      .table2 tr:nth-child(even){background-color: #dae7f1;}
+      .table2 tr:nth-child(odd){background-color: #c8dcea;}
+      
+
+      .table2 tr:hover {background-color: #ddd;}
+
+      .table2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;         
+      background-color: #04AA6D;
+      background-color: #4381ad;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.6em;
+      }
+
+      .table th, .table td {
+			text-align: right;
+			padding: 8px;
+			border: 1px solid #ddd;
+		 }
+   </style>
+
+   
+<title>Tanween in Arabic</title>
+
+<meta name="description" content="Arabic tanween rules. A complete description of tanween in Arabic and tanween examples.">
+
+<link rel="canonical" href="https://arabicpath/basic-arabic/tanween">
+
+
+<!-- jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>	
+   <header class="headerbar">
+      <!-- Mobile sidebar icon starts -->
+      <div role="button" class="hamburger">
+      <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>
+      <!-- Mobile sidebar icon ends -->
+
+      <p class="heading-one">Learn Arabic</p>          
+   </header>	 
+
+   
+<!-- Mobile nav -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+		<ul class="sidebar-items">
+
+			<li><a href="../index">Home</a></li>
+			<li><a href="arabic-alphabet">Arabic alphabet</a></li>
+			<li><a href="arabic-joining-letters">Arabic joining letters</a></li>
+			<li><a href="arabic-short-vowels">Arabic short vowels</a></li>
+			<li><a href="arabic-long-vowels">Arabic long vowels</a></li>
+			<li><a href="sukoon">Sukoon in Arabic</a></li>
+			<li><a href="tanween">Tanween in Arabic</a></li>
+			<li><a href="shadda">Shadda in Arabic</a></li>			
+
+		</ul>
+  </div>
+</div>
+	
+	<!-- desktop sidebar start -->
+	<aside class="sidebar">		  
+
+		<a class ="other-topic" href="../index" >Home</a>
+
+		
+		<a class ="sidebar-link" href="arabic-alphabet" >Arabic alphabet </a>
+ 
+		<a class ="sidebar-link" href="arabic-joining-letters" >Arabic joining letters</a>
+
+		<a class ="sidebar-link" href="arabic-short-vowels" >Arabic short vowels</a>
+
+		<a class ="sidebar-link" href="arabic-long-vowels" >Arabic long vowels</a>
+
+		<a class ="sidebar-link" href="sukoon" >Sukoon in Arabic</a>
+
+		<a class ="active-sidebar-link" href="tanween" >Tanween in Arabic</a>
+
+		<a class ="sidebar-link" href="shadda" >Shadda in Arabic</a>
+
+
+
+		
+			
+
+		 
+	</aside>  
+<!-- desktop sidebar end -->   
+
+   <div class="main-content">
+      <div class="main-text">
+
+         <h1 class="heading-main">Tanween</h1>
+
+         <ol class="topics">
+            <li><a href="#arabic-tanween" class="text-link">Tanween in Arabic</a></li>
+            <li><a href="#tanween-rules" class="text-link">Tanween rules</a></li>
+            <li><a href="#ta-marboota" class="text-link">Ta marboota</a></li>
+            <li><a href="#tanween-examples" class="text-link">Tanween examples</a></li>
+         </ol>
+
+         <h2 id="arabic-tanween" class="heading-two">
+            Tanween in Arabic
+         </h2>
+
+         <p class="para">
+         Tanween 
+         <span class="arabic">تَنْوِيْن</span>
+         <audio class="arabic-audio" controls preload="none" 
+         title="Tanween" 
+         artist="arabicpath.com"
+         src="">
+         </audio>
+         is doubling of short Arabic vowels. We have three short vowels i.e.
+         Fatha, Kasra and Damma: 
+         </p>
+
+         <ol class="thick">
+            <li>
+            <span class="arabic">ـَ</span>
+            </li>
+            <li>
+            <span class="arabic">ـِ</span>
+            </li>
+            <li>
+            <span class="arabic">ـُ</span>
+            </li>
+         </ol>
+
+         <p class="para">
+         Doubling of these three short vowels (tanween) looks like:
+         </p>
+
+         <ol class="thick">
+            <li>
+            <span class="arabic">ـً</span>
+            <br>
+            Tanween with fatha
+            </li>
+            <li>
+            <span class="arabic">ـٍ</span>
+            <br>
+            Tanween with kasra
+            </li>
+            <li>
+            <span class="arabic">ـٌ </span>
+            <br>
+            Tanween with damma
+            </li>
+         </ol>
+
+         <p class="para">
+            Like doubling of short vowels in other tanweens, tanween with damma <span class="arabic">ـٌ </span> also consists of two dammas. One is regular and the other is inverted. It looks like <span class="arabic">ـ&#x064F;&#x0657;</span> in handwriting, but computer fonts have their own styles. 
+         </p>
+
+         <h2 id="tanween-rules" class="heading-two">
+         Tanween rules
+         </h2>
+
+         <p class="para">
+            There are three important rules to remember regarding tanween.
+         </p>
+
+         <h3 class="heading-three">
+            Rule 1
+         </h3>
+
+         <p class="para">
+         Tanween is only placed on the last letter in a word. There is no concept of tanween at the mid or initial position of a word.
+         </p>
+
+         <h3 class="heading-three">
+            Rule 2
+         </h3>
+
+         <p class="para">
+         Tanweens are combinations of the respective short vowel and the letter noon with sukoon (noon sakin) i.e.</p>
+         
+         <p class="arab-para">
+         <span class="green">ـَ + نْ ⇜ ـً</span>
+         <br>
+         اَ + نْ ⇜ اً
+         <audio class="arabic-audio" controls preload="none" 
+         title="alif with tanween fatha" 
+         artist="arabicpath.com"
+         src="">
+         </audio>            
+         </p>
+
+         <p class="arab-para">
+         <span class="green">ـُ + نْ ⇜ ـٌ
+         </span>
+         <br>
+         اُ + نْ ⇜ اٌ
+         <audio class="arabic-audio" controls preload="none" 
+         title="alif with tanween damma" 
+         artist="arabicpath.com"
+         src="">
+         </audio>   
+         </p>
+
+         <p class="arab-para">
+         <span class="green"> ـِ + نْ ⇜ ـٍ
+         </span>
+         <br>
+         اِ + نْ ⇜ اٍ
+         <audio class="arabic-audio" controls preload="none" 
+         title="alif with tanween kasra" 
+         artist="arabicpath.com"
+         src="">
+         </audio>   
+         </p>
+
+         <p class="para">
+         However, we can't replace a tanween with noon sakin, because tanween has some grammatical purposes to serve.
+         <br>
+         (We will shortly see examples of tanween after the explanation of 3rd rule.)        
+         </p>
+
+         <h3 class="heading-three">
+            Rule 3
+         </h3>
+
+         <p class="para">
+         Tanween with fatha is always written with an extra alif <span class="arabic">ا</span>, i.e.
+         </p>
+         
+         <p class="arab-para">
+         باً
+         <audio class="arabic-audio" controls preload="none" 
+         title="ba with tanween fatha" 
+         artist="arabicpath.com"
+         src="">
+         </audio>   
+         <br>
+         تاً
+         <audio class="arabic-audio" controls preload="none" 
+         title="ta with tanween fatha" 
+         artist="arabicpath.com"
+         src="">
+         </audio> 
+         <br>
+         داً
+         <audio class="arabic-audio" controls preload="none" 
+         title="dal with tanween fatha" 
+         artist="arabicpath.com"
+         src="">
+         </audio> 
+         </p>
+
+         <p class="para">
+         However, there are two exceptions to this rule of extra alif with tanween fatha.
+         </p>
+
+         <ol class="thick">
+            <li>
+               If the last letter of the word is <strong>ta marboota</strong> <span class="arabic">ة</span>, then extra alif would not be written, e.g.
+               <br>
+               <span class="arabic">فَتْحَةً</span> 
+               <audio class="arabic-audio" controls preload="none" 
+               title="tanween with ta marbota example" 
+               artist="arabicpath.com"
+               src="">
+               </audio> 
+               <br>
+               <span class="arabic">كَسْرَةً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="tanween with ta marbota example" 
+               artist="arabicpath.com"
+               src="">
+               </audio> 
+               <br>
+               <span class="arabic">حَرَكَةً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="tanween with ta marbota example" 
+               artist="arabicpath.com"
+               src="">
+               </audio> 
+            </li>
+
+            <li>
+               If the last letter is <strong>hamza</strong> <span class="arabic">ء</span>, then extra alif would not be written, e.g.
+               <br>
+               <span class="arabic">سَمَاءً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="tanween with hamza example" 
+               artist="arabicpath.com"
+               src="">
+               </audio> 
+               <br>
+               <span class="arabic">شَيْءً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="tanween with hamza example" 
+               artist="arabicpath.com"
+               src="">
+               </audio> 
+               <br>
+
+            </li>
+         </ol>
+
+         
+         <div style="padding: 20px; background-color: whitesmoke;"> 
+
+            <h2 id="ta-marboota" class="heading-three">
+               Ta marboota 
+               <span class="arabic">
+               ة
+               </span>
+            </h2>
+
+            <p class="para">
+               We have just seen a new Arabic letter which we haven't discussed in the alphabet i.e. 
+               <span class="arabic">حرك<span class="green">ة</span></span> or 
+               <span class="arabic">كسر<span class="green">ة</span></span>.
+               <br>
+               This is the closed form of the letter ta <span class="arabic">ت</span>. The Arabic name of  <strong>closed ta</strong> is <strong>ta marboota</strong>. 
+            </p>
+
+            <p class="para">
+               It looks like the letter ha <span class="arabic">&#xFEE9;</span> but
+               <strong>ta marboota</strong> <span class="arabic">ة</span> only comes at the end of a word. That's why <em>ta marboota</em> has no initial or medial shapes.
+            </p>
+
+            <div class="drag-table-info">
+            On small screens, please drag the following table right or left to see the full width.
+            </div>
+
+            <div style="overflow-x:auto;">
+               <table class="table" style="text-align: center;">
+                  <tr style="text-align: center;">
+                     <th style="text-align: center;">4</th>
+                     <th style="text-align: center;">3</th>
+                     <th style="text-align: center;">2</th>
+                     <th style="text-align: center;">1</th>
+                  </tr>
+                  <tr>
+                     <th width="25%" style="text-align: center;">
+                     Final, attached 
+                     <br>
+                     to right
+                     </th>
+                     <th width="25%" style="text-align: center;">
+                     Medial, attached 
+                     <br>
+                     to right & left            
+                     </th>
+                     <th width="25%" style="text-align: center;">
+                     Initial, Unattached 
+                     <br>
+                     to right,
+                     <br>
+                     attached to left            
+                     </th>
+                     <th  width="25%" style="text-align: center;">
+                     Isolated 
+                     <br>
+                     form
+                     </th>            
+                  </tr>
+
+                  <tr>
+                     <td style="text-align: center;">
+                        <span class="arabic rtl">
+                        &#xFE94;
+                        </span>
+                     </td>
+                     <td style="text-align: center;">
+                     &#10060;
+                     </td>
+                     <td style="text-align: center;">
+                     &#10060;
+                     </td>
+                     <td style="text-align: center;">
+                     <span class="arabic rtl">
+                     ة
+                     </span>                
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            
+
+            <p class="para">
+               Please listen to the two following sounds of the same word:
+               <br>
+               <span class="arabic">حَرَكَةً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic singular vowel" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               <br>
+               <span class="arabic">حَرَكَةً</span>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic singular vowel" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+            </p>
+
+            <p class="para">
+               In the second sound,
+               <span class="arabic">حرك<span class="green">ة</span></span> 
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic singular vowel" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               <strong>ta marboota</strong> <span class="arabic">ة</span> sounds similar to the letter <span class="arabic">&#xFEE9;</span>. 
+               The reason for this similar sound of <strong>ta marboota</strong> to letter <strong>ha</strong> is that when <em>ta marboota</em> is in the solo word or in the word that is at the end of a sentence, the sound of <em>ta marboota</em> is similar to <em>ha</em>.                
+            </p>
+
+            <p class="para">
+            The reason for this similar sound of ta marboota to letter ha is that in the spoken solo word or the word that is at the end of a sentence is spoken as sakin (Sakin = a word with sukoon symbol on it), but in written Arabic, it is not sakin.
+            </p>
+
+            <p class="para">
+            When we speak in every day spoken Arabic, we cut the voice of last harakah (short vowel).
+            <br>
+            For example, in the following sentence, we are not pronouncing the fatah &nbsp; <span class="arabic">ـَ</span> &nbsp; 
+            on the last letter of the sentense, Qaf
+            <span class="arabic">ك</span>.
+            </p>
+
+            <p class="arab-para">
+            كَيْفَ حَالُكَ
+            <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+            </p>
+
+            <p class="para">
+               Similarly, the letter noon 
+               <span class="arabic">ن</span>
+               is pronounced as sakin 
+               <span class="arabic">ساكن</span>
+               in the following words in  spoken Arabic.
+            </p>
+
+            <p class="arab-para">
+            مُسْلِمَيْنِ 
+            <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+            <br>
+            مُسْلِمِيْنَ
+            <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+            </p>
+
+            <p class="para">
+            <strong>However,</strong> in this course, we are not making the last letter sakin in sounds, and you should also do the same because these symbols on the last letters have grammatical importance. So, it is necessary to speak the last symbol for learning purposes. Later, when you have learned Arabic you can omit the last harakah in your spoken language.
+            </p>
+
+         </div>
+
+         <h2 id="tanween-examples" class="heading-two">
+         Tanween examples
+         </h2>
+
+         <p class="arabic center">
+         ا 
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     اً
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="Hamza tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     اٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ba tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     اٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ba tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ب 
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     بًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ba tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     بٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ba tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     بٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ba tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ت
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     تًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     تٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     تٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         
+         <p class="arabic center">
+         ث
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ثًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="tha tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ثٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="tha tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ثٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="tha tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+              
+         <p class="arabic center">
+         ج
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     جًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="jeem tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     جٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="jeem tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     جٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="jeem tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+               
+         <p class="arabic center">
+         ح
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     حًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     حٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     حٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         خ
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     خًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kha tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     خٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kha tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     خٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kha tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         د
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     دًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="dal tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     دٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="dal tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     دٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="dal tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ذ
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ذًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zal tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ذٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zal tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ذٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zal tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ر
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     رًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ra tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     رٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ra tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     رٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ra tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ز
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     زًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     زٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     زٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         
+         <p class="arabic center">
+         س
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     سًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="seen tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     سٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="seen tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     سٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="seen tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ش
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     شًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="sheen tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     شٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="sheen tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     شٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="sheen tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ص
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     صًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="saad tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     صٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="saad tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     صٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="saad tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+
+         <p class="arabic center">
+         ض
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ضًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zaad tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ضٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zaad tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ضٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="zaad tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         
+         <p class="arabic center">
+         ط
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     طًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     طٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     طٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ta tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         ظ
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ظًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ظٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ظٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="za tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         ع
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     عًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="aein tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     عٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="aein tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     عٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="aein tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         غ
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     غًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ghein tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     غٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ghein tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     غٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ghein tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         ف
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     فًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="fa tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     فٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="fa tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     فٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="fa tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ق
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     قًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="qaf tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     قٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="qaf tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     قٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="qaf tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         ك
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     كًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kaf tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     كٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kaf tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     كٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="kaf tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ل
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     لًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="lam tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     لٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="lam tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     لٌ 
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="lam tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         
+         <p class="arabic center">
+         م
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     مًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="meem tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     مٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="meem tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     مٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="meem tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+             
+         <p class="arabic center">
+         ن
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     نًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="noon tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     نٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="noon tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     نٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="noon tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="arabic center">
+         و
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     وًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="wao tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     وٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="wao tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     وٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="wao tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+
+         <p class="arabic center">
+         ﻩ
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     هًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ﻩٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ﻩٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="ha tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+         <p class="arabic center">
+         ء
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ءً
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="hamza tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ءٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="hamza tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     ءٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title="hamza tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+         <p class="para">
+            No alif
+            <span class="arabic">ا</span>
+            after 
+            <span class="arabic">ءً</span>.
+            We have already covered two exceptions above. 
+         </p>
+
+
+         <p class="arabic center">
+         ي
+         </p>
+
+         <div dir='rtl' style="overflow-x:auto;">
+            <table class="table">
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     يًا
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title=" tanween with fatha" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     يٍ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title=" tanween with kasra" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="arabic">
+                     يٌ
+                     </span>
+                     <audio class="arabic-audio" controls preload="none" 
+                     title=" tanween with damma" 
+                     artist="arabicpath.com"
+                     src="">
+                     </audio>
+                  </td>
+               </tr>            
+            </table>
+         </div>
+
+
+
+
+
+
+
+      
+
+
+
+
+         				
+
+
+			  <!-- Scroll to top button starts-->
+			  <button					
+					class="scrollToTop"
+					onclick="topFunction()" id="myBtn" title="Go to top">
+					⌃					
+			  </button>	
+
+
+		 </div> <!-- main-content -->
+	  </div> <!-- main-text -->
+
+	  
+	  <footer class="footer">
+		<div class="footer-div">
+			<p class="footer-para">Copyright &copy; 2021 arabicpath.com</p>
+			<p class="footer-para">All Rights Reserved</p>
+			<!-- <p class="footer-para">Learn German grammar step by step @ <a target="_blank" href="https://lets-learn-german.com" style="color: DarkTurquoise; text-decoration: none;">www.lets-learn-german.com</a></p> -->
+		</div>
+
+		<div class="footer-div">
+		<p class="footer-para">
+			<a href="../contact/contact-us.html" class="footer-link">Contact Us</a> |
+			<!-- <a href="common/site-navigation" class="footer-link">Site Navigation</a> | -->
+			<a href="../common/privacy-policy" class="footer-link">Privacy Policy</a> |          
+			<a href="../common/about-us" class="footer-link">About Us</a> |
+			<a href="../common/terms-of-use" class="footer-link">Terms of Use</a> 
+		</p>
+		</div>
+	  </footer>
+
+	  <script>
+	  // mobile nav (curtain) start
+		function openNav() {
+		document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		document.getElementById("myNav").style.width = "0%";
+		}
+		// mobile nav (curtain) end
+
+		// scroll to top start
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		// scroll to top end
+		
+	  </script>
+
+ 
+
+         <script>
+         $(document).ready(function(){
+            $("#hide1").click(function(){
+               $(".hidden").hide();
+            });
+            $("#show1").click(function(){
+               $(".hidden").show();
+            });
+
+         });
+         </script>
+
+</body>
+</html>

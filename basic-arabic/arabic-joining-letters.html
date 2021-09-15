@@ -1,0 +1,2152 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+			rel="shortcut icon"
+			href="../favicon.ico"
+	/>	
+	<meta name="author" content="arabicpath.com">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" 			rel="stylesheet">
+
+	<link rel="stylesheet" href="include-basic/main.css">
+
+	<!-- google analytics starts-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH4CKN13C8"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-QH4CKN13C8');
+		</script>
+	<!-- google analytics  ends--> 
+
+<style>
+
+/* extras start */
+
+blockquote {
+   font-size: 1.2rem;
+}
+
+
+blockquote span::before,
+blockquote span::after {
+   content: "“";
+   font-family: Georgia;
+   font-size: 3.5rem;
+   margin: -1rem 0 0 -2rem;
+   position: absolute;
+   opacity: 0.5;   
+}
+blockquote span::after {
+   content: "”";
+   margin: 0.3rem 3rem 0 0.5rem;   
+}
+
+blockquote cite {
+   /* font-size: 1.5rem; */
+}
+
+/* exercise start */
+.ex1 {
+      background-color: #c8dcea;
+      padding: 8px 5px;
+      border-top: 2px solid #4381ad;
+      
+   }
+
+   .ex2 {
+      background-color: #dae7f1;
+      padding: 8px 5px;
+      border-top: 2px solid #4381ad;
+      
+   }
+
+   .text-answer {
+      font-size: 2rem;
+   }
+
+   .hidden {
+      color: #04AA6D;
+      font-size: 1.7rem;
+      font-weight: bold;		
+      display: none;	
+   }
+
+   .hidden2 {
+      color: #04AA6D;
+      font-size: 1.7rem;
+      font-weight: bold;		
+      display: none;	
+   }
+
+
+.toggle{
+   text-align: center;
+}
+
+#hide1 {
+   padding: 10px 10px;
+   font-size: 1.2rem;
+   margin: 15px auto;
+   color: white;
+	background-color: #4381ad;
+   outline: none;
+   cursor: pointer;
+   border: none;
+}
+
+#show1 {
+   padding: 10px 10px;
+   font-size: 1.2rem;
+   margin: 15px auto;
+   color: white;
+	background-color: #4381ad;
+   outline: none;
+   cursor: pointer;
+   border: none;
+}
+
+
+#hide2 {
+   padding: 10px 10px;
+   font-size: 1.2rem;
+   margin: 15px auto;
+   color: white;
+	background-color: #4381ad;
+   outline: none;
+   cursor: pointer;
+   border: none;
+}
+
+#show2 {
+   padding: 10px 10px;
+   font-size: 1.2rem;
+   margin: 15px auto;
+   color: white;
+	background-color: #4381ad;
+   outline: none;
+   cursor: pointer;
+   border: none;
+}
+   /* excersie end */
+/* extras end */
+
+   .arab-para {
+      direction: rtl;
+      text-align: right;
+      font-family: calibri, tahoma, sans-serif;
+      font-size: 2.8rem;
+      margin-top: 2px;
+      margin-bottom: 2px;
+   }
+
+   .rtl {
+      direction: rtl;
+      }
+
+   .right{
+      text-align: right;
+   }
+
+   .arabic {
+      font-family: calibri, tahoma, sans-serif;
+      font-size: 2.8rem;
+      /* line-height: 2.8rem; */
+   }
+
+   .arabic-audio {
+      height: 30px;
+      width: 110px;
+   }
+
+   /* table start */
+            
+      .table2 {
+      text-align: center;
+      border-collapse: collapse;
+      width: 100%;
+      }
+
+      .table2 td, .table2 th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      }
+
+      .table2 tr:nth-child(even){background-color: #dae7f1;}
+      .table2 tr:nth-child(odd){background-color: #c8dcea;}
+      
+
+      .table2 tr:hover {background-color: #ddd;}
+
+      .table2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;         
+      background-color: #04AA6D;
+      background-color: #4381ad;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.6em;
+      }
+   </style>
+
+   
+<title>Arabic Joining Letters</title>
+
+<meta name="description" content="">
+
+<link rel="amphtml" href="https://arabicpath/basic-arabic/arabic-joining-letters">
+
+<!-- jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>	
+   <header class="headerbar">
+      <!-- Mobile sidebar icon starts -->
+      <div role="button" class="hamburger">
+      <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>
+      <!-- Mobile sidebar icon ends -->
+
+      <p class="heading-one">Learn Arabic</p>          
+   </header>	 
+
+   
+<!-- Mobile nav -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+		<ul class="sidebar-items">
+
+			<li><a href="../index">Home</a></li>
+			<li><a href="arabic-alphabet">Arabic alphabet</a></li>
+			<li><a href="arabic-joining-letters">Arabic joining letters</a></li>
+			<li><a href="arabic-short-vowels">Arabic short vowels</a></li>
+			<li><a href="arabic-long-vowels">Arabic long vowels</a></li>
+			<li><a href="sukoon">Sukoon in Arabic</a></li>
+			<li><a href="tanween">Tanween in Arabic</a></li>
+			<li><a href="shadda">Shadda in Arabic</a></li>			
+
+		</ul>
+  </div>
+</div>
+	
+	<!-- desktop sidebar start -->
+	<aside class="sidebar">		  
+
+		<a class ="other-topic" href="../index" >Home</a>
+
+		
+		<a class ="sidebar-link" href="arabic-alphabet" >Arabic alphabet </a>
+ 
+		<a class ="active-sidebar-link" href="arabic-joining-letters" >Arabic joining letters</a>
+
+		<a class ="sidebar-link" href="arabic-short-vowels" >Arabic short vowels</a>
+
+		<a class ="sidebar-link" href="arabic-long-vowels" >Arabic long vowels</a>
+
+		<a class ="sidebar-link" href="sukoon" >Sukoon in Arabic</a>
+
+		<a class ="sidebar-link" href="tanween" >Tanween in Arabic</a>
+
+		<a class ="sidebar-link" href="shadda" >Shadda in Arabic</a>
+
+
+
+		
+			
+
+		 
+	</aside>  
+<!-- desktop sidebar end -->   
+
+   <div class="main-content">
+      <div class="main-text">
+
+         <h1 class="heading-main">Arabic Connecting Letters</h1>
+
+         <ol class="topics">
+            <li><a href="#arabic-word-fragmentation" class="text-link">What is a word segment?</a></li>
+            <li><a href="#arabic-non-connecting-letters" class="text-link">Arabic non-connecting letters</a></li>
+            <li><a href="#Joining-arabic-letters-chart" class="text-link">Joining Arabic letters chart</a></li>
+            <li><a href="#ex1" class="text-link">Exercise 1</a></li>
+            <li><a href="#ex2" class="text-link">Exercise 2</a></li>
+         </ol>
+
+         <p class="para">
+            <em>
+            Please note that in this lesson we are not learning the pronunciation of Arabic words. This lesson is about the understanding of Arabic connecting or joining letters. i.e. How Arabic letters are connected with one another?
+            <br>
+            The above explanation becomes necessory because this lesson contains some complete Arabic words. These are just to show letter's connectivity and not to learn the pronunciation.   
+            </em>
+         </p>
+
+         <p class="para">
+         Most of the characters in the Arabic Alphabet connect to their neighboring letters. So, an Arabic letter can be at the beginning of a word or word segment, in the middle, or at the end of a word or word segment. With the change in the position of a letter in a word or a word segment, the appearance of a letter also changes.   
+         </p>
+
+         <p class="para">
+         Learning the connecting pattern of Arabic or other languages written in the Arabic script is the most difficult task for an English speaker. We have tried to simplify it here.
+         </p>
+
+         <p class="para">
+         Without recognition of these joining shapes, it is impossible to read Arabic. In the next lesson, we will learn how to read Arabic words, even without knowing their meanings. Jumping onto the next lesson without knowledge of Arabic connecting patterns is of no use. So, take your time in learning these patterns. This task may take up to a weak for absolute beginners.
+         </p>
+
+         <p class="para">
+         Since the goal at the beginning stage is to read the Arabic words, it is important to recognize the letter,s shapes at the initial, middle, and final positions in a word or word segment.  
+         </p>
+
+         <h2 id="arabic-word-fragmentation" class="heading-two">
+         What is a word segment?
+         </h2>
+
+         <p class="para">
+            <strong>
+            Please note that word segmentation has nothing to do with syllables. 
+            syllables are discussed under a completely different topic.
+            </strong>
+         </p>
+
+         <p class="para">
+         To understand the concept of word segment, we take an example word that is pronounced almost similarly in Arabic and English. 
+         </p>
+
+         <p class="para">
+         Take the example word Washington, in Arabic, it is written as:
+         <br>
+         (Read Arabic letters from right to left.)
+         </p>
+
+         <p class="arab-para">
+         <span style="transform: rotate(180deg);  display: inline-block;">
+               &#10140;</span> 
+            واشنطن
+            <br>
+            <audio class="arabic-audio" controls preload="none" 
+            title="Arabic letter zaal" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+                   
+         </p>
+
+         <p class="para">
+         The Arabic spellings of the word Washington are  
+         </p>
+
+         <p class="arab-para">
+            و ا ش ن ط ن 
+            <br>
+            <audio class="arabic-audio" controls preload="none" 
+            title="Arabic letter zaal" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+         </p>
+
+         <p class="para">
+            but we see three segments in this word. 
+         </p>
+         
+         <ol>
+            <li>
+               Letters <span class="arabic"> و </span>
+               <audio class="arabic-audio" controls preload="none" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+                and <span class="arabic"> ا </span> 
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter zaal" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               are in their solo forms. 
+            </li>
+            <li>
+               Then we have a combination of four letters i.e.
+               <span class="arabic">
+                  شنطن
+                 
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter zaal" 
+                  artist="arabicpath.com"
+                  src="">
+               </span>
+            </li>
+         </ol>
+
+         <p class="para">
+            So, we have 3 segments in the word  
+            <span class="arabic">واشنطن</span>.
+         </p>
+
+         <table class="table2">
+            <tr>
+               <th width="33.3%">
+               Segment 3
+               </th>
+               <th width="33.3%">
+               Segment 2  
+               </th>
+               <th width="33.3%">
+               Segment 1 
+               </th>
+            </tr>
+            <tr>
+               <td>
+               <span class="arabic rtl">
+               شنطن
+               </span>   
+               </td>
+               <td>
+               <span class="arabic rtl">
+               ا 
+               </span> 
+               </td>
+               <td>
+               <span class="arabic rtl">
+               و
+               </span> 
+               </td>
+            </tr>
+         </table>
+
+         <p class="para">
+         Some Arabic words are divided into segments and some are not (single segment words). The division of a word into segments depends upon the non-connecting letters. As discussed at the beginning of the current lesson, most of the letters in the Arabic language connect to their neighboring letters, but some letters can't be connected, thus causing the division of a word into two or more segments. 
+         </p>
+
+         <h2 id="arabic-non-connecting-letters" class="heading-two">
+         Arabic non-connecting letters
+         </h2>
+
+         <p class="para">
+         A simple rule to keep in mind while making words from Arabic letters is: 
+         <br>
+         <blockquote>
+         <span>
+         <em>
+         In the formation of a word from alphabetic letters, all Arabic letters join to preceding letters (letters before them), and the majority of letters also join the proceeding letters (letters after them),
+         but <strong>
+         there are six letters in the Arabic alphabet that can’t be joined to the proceeding letters
+         </strong> (letters after them).
+         </em>
+         </span>
+         </blockquote>
+         </p>
+
+         <div style="background-color: hsl(205,44%,47%); color: white; padding: 12px 25px;">
+
+            <p class="para" style="text-align: center; font-size: 1.5rem;">
+               <strong>
+               These six Arabic non-connecting letters are:
+               </strong>
+            </p>
+
+            <p class="arab-para">
+            <audio style="height: 30px;" controls preload="none" 
+            title="Arabic non-connecting letters" 
+            artist="arabicpath.com"
+            src="">
+            </audio>
+            <br>
+            ا              
+            <br>
+            د
+            <br>
+            ذ
+            <br>
+            ر
+            <br>
+            ز
+            <br>
+            و
+            </p>   
+
+         </div>
+
+         <h3 class="heading-three">
+            Explanation of Arabic connecting letters via examples
+         </h3>
+
+         <p class="para">
+         To understand more about Arabic connecting letters,
+         we take the word <span class="arabic rtl">واشنطن</span> (Washington) and analyze it, why it contains three segments. The spellings are 
+         <span class="arabic rtl">
+         و ا ش ن ط ن</span>.
+         
+         </p>
+
+         <p class="para">
+         From the above-explained rule, we know that the letters <span class="arabic rtl"> و </span> and <span class="arabic rtl"> ا </span> can’t be connected to the letter after them. That’s why we see a break after the letter <span class="arabic rtl"> و </span> and then after the letter <span class="arabic rtl"> ا</span>. These two breaks are responsible for the division of the word <span class="arabic rtl"> واشنطن </span> into three segments/sections.
+         </p>
+
+         <p class="para">
+         We have the letter <span class="arabic rtl"> ن </span> two times in the word <span class="arabic rtl"> واشنطن </span>. The first occurrence is in the middle of the 3rd segment, and the second time <span class="arabic rtl"> ن </span> is at the end of the 3rd segment.
+         We see that the shape of the letter "noon" is different when it is in the middle of a word or word segment from its isolated form.  
+         </p>
+
+         <p class="para">
+         But the letter <span class="arabic rtl"> ن </span> can be at the first position in a word or word segment, like in the word <span class="arabic rtl"> دنیا </span> 
+         <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+         </audio>
+         which means <strong>world</strong>, where <span class="arabic rtl"> ن </span> is at the first position of 2nd segment of the word.
+         </p>
+
+         <p class="para">
+         Or in the word <span class="arabic rtl"> نخلة </span> 
+         <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+         </audio>
+         <strong>(Palm tree)</strong>, where <span class="arabic rtl"> ن </span> is the first letter in the word. The word, <span class="arabic rtl"> نخلة </span> (Palm tree) is not divided into segments/sections because all letters are connecting letters of the Arabic alphabet and there no occurrence of letters 
+         <span class="arabic rtl">
+         ا ,            
+            د,
+            ذ,
+            ر,
+            ز
+            و
+         </span>, Which are responsible for the division of a word into segments.
+         </p>
+
+         <p class="para">
+         A letter can be in the isolated position in a word. This means, the letter is not connected to the letter before it or after it, like, the letter ن is in the isolated position in the word <span class="arabic rtl"> باكستان </span>
+         <audio class="arabic-audio" controls preload="none" 
+            artist="arabicpath.com"
+            src="">
+         </audio>
+         (Pakistan). The word <span class="arabic rtl"> باكستان </span> is divided into 3 segments. This division of the word is because of two occurrences of the letter 
+         <span class="arabic rtl">ا </span>. Which belongs to the six Arabic letters that don’t connect to the letter after them. However, <span class="arabic rtl"> ن </span> can connect to the letter after it but here in <span class="arabic rtl"> باكستان </span> it is the last letter and must be written in the isolated form.
+         
+         Similarly, <span class="arabic"> و </span> (waw) and <span class="arabic"> ا </span> (alif) are in isolated forms in the word <span class="arabic">واشنطن</span> (Washington) for the same reason.
+         </p>
+
+         <p class="para">
+         So, there can be four positions of a letter in a word or word section/segment.
+         </p>
+
+         <ol>
+            <li>
+               A letter can be at the beginning
+            </li>
+            <li>
+               in the middle,
+            </li>
+            <li>
+               at the end of a word, or
+            </li>
+            <li>
+               in the isolated form.
+            </li>
+         </ol>
+
+         <p class="para">
+         All four positions of the Arabic letters are discussed below with examples.
+         </p>
+
+         <h2 id="Joining-arabic-letters-chart" class="heading-two">
+         Joining Arabic letters chart
+         </h2>
+
+         <p class="para">
+         In the following table, below the connecting character shapes are example words that show the use of the particular character shape in a word or word segment. These example words are not real meaningful Arabic words. They are just to represent the connecting letters. 
+         <br>
+         The <strong><span class="green">green color</span></strong> in the example words shows the shape that is described above it.  
+         </p>
+
+         <p class="para">
+            Please read the table from <strong>right to left</strong>.
+            <span style="transform: rotate(180deg);  display: inline-block;">
+               &#10140;</span>             
+         </p>
+
+         <div class="drag-table-info">
+         On small screens, please drag the following table right or left to see the full width.
+         </div>
+
+         <div style="overflow-x:auto;">
+         <table class="table">
+            <tr>
+               <th>4</th>
+               <th>3</th>
+               <th>2</th>
+               <th>1</th>
+            </tr>
+            <tr>
+               <th width="25%">
+               Final, attached 
+               <br>
+               to right
+               </th>
+               <th width="25%">
+               Medial, attached 
+               <br>
+               to right & left            
+               </th>
+               <th width="25%">
+               Initial, Unattached 
+               <br>
+               to right,
+               <br>
+               attached to left            
+               </th>
+               <th  width="25%">
+               Isolated 
+               <br>
+               form
+               </th>            
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـا
+                  </span>
+               </td>
+               <td>
+               &#10060;
+               </td>
+               <td>
+               &#10060;
+               </td>
+               <td>
+                 <span class="arabic rtl">
+                 ا
+                 </span>
+                 <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Alif Arabic" 
+                  artist="arabicpath.com"
+                  src="basic-arabic/sounds/1.mp3">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـب
+                  <br>
+                  بب<span class="green">ب</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـبـ
+                  <br>
+                  ب<span class="green">ب</span>ب
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  بـ
+                  <br>
+                  <span class="green">ب</span>بب
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ب 
+                  </span>
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter baa" 
+                  artist="arabicpath.com"
+                  src="basic-arabic/sounds/1.mp3">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـت
+                  <br>
+                  تت<span class="green">ت</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـتـ
+                  <br>
+                  ت<span class="green">ت</span>ت 
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  تـ
+                  <br>
+                  <span class="green">ت</span>تت 
+                  </span>                  
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ت
+                  </span>
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter taa" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـث
+                  <br>
+                  ثث<span class="green">ث</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـثـ
+                  <br>
+                  ث<span class="green">ثـ</span>ث
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ثـ
+                  <br>
+                  <span class="green">ثـ</span>ثث
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ث
+                  </span>
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter thaa" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـج
+                  <br>
+                  جج<span class="green">ج</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                     ـجـ 
+                     <br>
+                  ج<span class="green">ج</span>ج 
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  جـ
+                 
+                  <br>
+                     <span class="green">ج</span>جج 
+                  </span>‎
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ج‎
+                  </span>
+                  <br> <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter jeem" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>                  
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـح
+                  <br>
+                  حح<span class="green">ح</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـحـ
+                  <br>
+                  ح<span class="green">ح</span>ح 
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                     حـ
+                     <br>
+                     <span class="green">ح</span>حح  
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ح
+                  </span>
+                  <br> <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter haa" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـخ
+                  <br>
+                  خخ<span class="green">خ</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـخـ
+                  <br>
+                  خ<span class="green">خ</span>خ
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  خـ
+                  <br>
+                     <span class="green">خ</span>خخ 
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  خ
+                  </span>
+                  <br>
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter khaa" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـد
+                  <br>
+                  ح<span class="green">د</span>
+                  </span>
+               </td>
+               <td>
+               ❌
+               </td>
+               <td>
+               ❌
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                     د 
+                  </span>
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter dal" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـذ
+                  <br>
+                  ح<span class="green">ذ</span>
+                  </span>
+               </td>
+               <td>❌</td>
+               <td>❌</td>
+               <td>
+                  <span class="arabic rtl">
+                  ذ
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter zaal" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+                  </span>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـر
+                  <br>
+                  ح<span class="green">ر</span>
+                  </span>
+               </td>
+               <td>❌</td>
+               <td>❌</td>
+               <td>
+                  <span class="arabic rtl">
+                  ر
+                  </span>
+                  <br> <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter raa" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـز
+                  <br>
+                  ح<span class="green">ز</span>
+                  </span>
+               </td>
+               <td>❌</td>
+               <td>❌</td>
+               <td>
+                  <span class="arabic rtl">
+                  ز
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="za arabic letter" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+                  </span>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـس
+                  <br>
+                     سس<span class="green">س</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـسـ
+                  <br>
+                  س<span class="green">س</span>س
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  سـ
+                  <br>
+                  <span class="green">س</span>سس
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  س
+                  </span>
+                  <br> <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter seen" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <span class="arabic rtl">
+                  ـش
+                  <br>
+                  شش<span class="green">ش</span>
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ـشـ
+                  <br>
+                  ش<span class="green">ش</span>ش
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  شـ 
+                  <br>
+                  <span class="green">ش</span>شش
+                  </span>
+               </td>
+               <td>
+                  <span class="arabic rtl">
+                  ش 
+                  </span>
+                  <br> <br> 
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter sheen" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+               </td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـص
+               <br>
+               صص<span class="green">ص</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـصـ
+               <br>
+               ص<span class="green">ص</span>ص
+               </span></td>
+               <td><span class="arabic rtl">
+               صـ
+               <br>
+               <span class="green">ص</span>صص 
+               </span></td>
+               <td><span class="arabic rtl">
+               ص 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter saad" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـض
+               <br>
+               ضض<span class="green">ض</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـضـ
+               <br>
+               ض<span class="green">ض</span>ض
+               </span></td>
+               <td><span class="arabic rtl">
+               ضـ
+               <br>
+               <span class="green">ض</span>ضض 
+               </span></td>
+               <td><span class="arabic rtl">
+               ض 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="daad Arabic letter" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـط
+               <br>
+               طط<span class="green">ط</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـطـ
+               <br>
+               ط<span class="green">ط</span>ط 
+               </span></td>
+               <td><span class="arabic rtl">
+               طـ
+               <br>
+               <span class="green">ط</span>طط 
+               </span></td>
+               <td><span class="arabic rtl">ط 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter taa" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـظ
+               <br>
+               ظظ<span class="green">ظ</span>
+               </span></td>
+               <td><span class="arabic rtl">
+               ـظـ
+               <br>
+               ظ<span class="green">ظ</span>ظ
+               </span></td>
+               <td><span class="arabic rtl">
+               ظـ
+               <br>
+               <span class="green">ظ</span>ظظ  
+               </span></td>
+               <td><span class="arabic rtl">
+               ظ
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter Zaa" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـع
+               <br>
+               عع<span class="green">ع</span>
+               </span></td>
+               <td><span class="arabic rtl">
+               ـعـ
+               <br>
+               ع<span class="green">ع</span>ع
+               </span></td>
+               <td><span class="arabic rtl">
+               عـ
+               <br>
+               <span class="green">ع</span>عع
+               </span></td>
+               <td><span class="arabic rtl">
+               ع
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter ayn" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـغ
+               <br>
+               غح<span class="green">غ</span>
+               </span></td>
+               <td><span class="arabic rtl">
+               ـغـ
+               <br>
+               ح<span class="green">غ</span>غ
+               </span></td>
+               <td><span class="arabic rtl">
+               غـ
+               <br>
+               <span class="green">غ</span>غح 
+               </span></td>
+               <td><span class="arabic rtl">
+               غ 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter ghayn" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـف
+               <br>
+               فف<span class="green">ف</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـفـ
+               <br>
+               ف<span class="green">ف</span>ف
+               </span></td>
+               <td><span class="arabic rtl">
+               فـ
+               <br>
+               <span class="green">ف</span>فف 
+               </span></td>
+               <td><span class="arabic rtl">
+               ف 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter fa" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـق
+               <br>
+               قق<span class="green">ق</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـقـ
+               <br>
+               ق<span class="green">ق</span>ق
+               </span></td>
+               <td><span class="arabic rtl">
+               قـ
+               <br>
+               <span class="green">ق</span>قق 
+               </span></td>
+               <td><span class="arabic rtl">
+               ق 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter qaaf" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـك
+               <br>
+               كك<span class="green">ك</span>
+               </span></td>
+               <td><span class="arabic rtl">
+               ـكـ
+               <br>
+               ك<span class="green">ك</span>ك
+               </span></td>
+               <td><span class="arabic rtl">
+               كـ
+               <br>
+               <span class="green">ك</span>كك
+               </span></td>
+               <td><span class="arabic rtl">
+               ك
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter kaf" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـل
+               <br>
+               لل<span class="green">ل</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـلـ
+               <br>
+               ل<span class="green">ل</span>ل
+               </span></td>
+               <td><span class="arabic rtl">
+               لـ
+               <br>
+               <span class="green">ل</span>لل 
+               </span></td>
+               <td><span class="arabic rtl">
+               ل
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter laam" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            
+            <tr>
+               <td><span class="arabic rtl">
+               ـم
+               <br>
+               مم<span class="green">م</span>
+               </span></td>
+               <td><span class="arabic rtl">
+               ـمـ
+               <br>
+               م<span class="green">م</span>م
+               </span></td>
+               <td><span class="arabic rtl">
+               مـ
+               <br>
+               <span class="green">م</span>مم 
+               </span></td>
+               <td><span class="arabic rtl">
+               م
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter meem" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            
+            <tr>
+               <td>
+               <span class="arabic rtl">
+               ـن
+               <br>
+               نـنـ<span class="green">ن</span> 
+               </span>
+               </td>
+               <td>
+               <span class="arabic rtl">
+               ـنـ
+               <br>
+               نـ<span class="green">ن</span>ـن
+               </span>
+               </td>
+               <td><span class="arabic rtl">
+               نـ
+               <br>
+               <span class="green">ن</span>نن 
+               </span></td>
+               <td><span class="arabic rtl">
+               ن
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter noon" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td>
+               <span class="arabic rtl">
+               ـو
+               <br>
+                  ن<span class="green">و</span>
+               </span>
+               </td>
+               <td>❌</td>
+               <td>❌</td>
+               <td>
+                  <span class="arabic rtl">
+                  و  
+                  <br>
+                  <audio class="arabic-audio" controls preload="none" 
+                  title="Arabic letter waw" 
+                  artist="arabicpath.com"
+                  src="">
+                  </audio>
+                  </span>
+               </td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـه
+               <br>
+               هه<span class="green">ه</span> 
+               </span></td>
+               <td><span class="arabic rtl">
+               ـهـ
+               <br>
+               ه<span class="green">ه</span>ه 
+               </span></td>
+               <td><span class="arabic rtl">
+               هـ
+               <br>
+               <span class="green">ه</span>هه 
+               </span></td>
+               <td><span class="arabic rtl">
+               &#xFEE9;  
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter haa" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+            <tr>
+               <td colspan="3">
+               "Hamza" is unique Arabic letter. It can't be connect from right or left side.
+               </td>
+               <td>
+               <span class="arabic rtl">
+               ء  
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="Arabic letter hamza" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span>
+               </td>
+            </tr>
+
+            <tr>
+               <td><span class="arabic rtl">
+               ـي
+               <br>
+               ل<span class="green">ـي</span>  
+               </span></td>
+               <td><span class="arabic rtl">
+               ـيـ
+               <br>
+               ب<span class="green">ي</span>أ    
+               </span></td>
+               <td><span class="arabic rtl">
+               يـ
+               <br>
+               <span class="green">ي</span>ا  
+               </span></td>
+               <td><span class="arabic rtl">
+               ي 
+               <br>
+               <audio class="arabic-audio" controls preload="none" 
+               title="yaa Arabic letter" 
+               artist="arabicpath.com"
+               src="">
+               </audio>
+               </span></td>
+            </tr>
+
+         </table>
+         </div>
+
+         <h2 id="ex1" class="heading-two">
+         Exercise 1
+         </h2>
+
+         <p class="para">
+         Break the following words into individual characters. 
+         <br>
+         You can use an Arabic keyboard, online Arabic keyboard to fill in individual letters.
+         <br>
+         There is also a pdf form of this practice available, you can download, print, and practice with a pen, which is an even better option for long-term memory.
+         </p>
+
+         <p class="para">
+         Once you have completed the task and want to see results, the buttons are at the end of the exercise.
+         </p>
+
+         <div class="ex1">
+            <p class="arab-para">
+            واشنطن
+            &#8668;
+            و ا ش ن ط ن              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            دنیا 
+            &#8668;
+            د ن ي ا 
+            </p>
+         </div>
+
+         <p class="para">
+            Please also note whenever the special Arabic letter <span class="arabic">ء</span> (hamza)  comes over or below a letter, that particular letter is written with  <span class="arabic">ء</span> in the isolated form.
+         </p>
+
+         <div class="ex1">
+            <p class="arab-para">
+            إقرا 
+            &#8668;
+            إ ق ر ا              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            صاحب  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+               ص ا ح ب 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            عصا 
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ع ص ا 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            اکبر   
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ا ك ب ر 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            وقت  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            و ق ت 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            ثقيل    
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ث ق ي ل 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            اكتظاظ  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ا ك ت ظ ا ظ  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            زوج  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            زوج
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            مثلث  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            م ث ل ث 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            حجاب
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ح ج ا ب 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            حج  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ح ج  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            نعناع
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ن ع ن ا ع 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            لحم  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ل ح م  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            قمح
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ق م ح 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            خوخ  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            خ و خ  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            الشيخ
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ا ل ش ي خ 
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            جراد  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ج ر ا د   
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            دخول
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            د خ و ل  
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            مدخل  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            م د خ ل   
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            تركستان
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ت ر ك س ت ا ن  
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            الشرق  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            ا ل ش ر ق  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            فیصل
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden">
+            ف ي ص ل  
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            أخضر  
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden">
+            أ خ ض ر  
+            </span>              
+            </p>
+         </div>
+
+         <div class="toggle">
+         <button id="show1">Show Results</button>
+         <button id="hide1">Hide Results</button>         
+         </div>
+
+         <h2 id="ex2" class="heading-two">
+            Exercise 2
+         </h2>
+
+         <p class="para">
+         Just like we have extracted letters from words, now we are going to construct words from letters. This practice helps in learning writing. 
+         This exercise is a bit difficult than the previous one but is important in the direction of learning Arabic script. In case you can't construct words from letters, please re-read the above-explained rules, which letters connect to their left-coming letters and which don't.    
+         </p>
+
+         <div class="ex1">
+            <p class="arab-para">
+            و ا ش ن ط ن 
+            &#8668;
+            واشنطن
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            إ ق ر ا
+            &#8668;
+            إقرا 
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ص ا ح ب
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            صاحب 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            ع ص ا
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden2">
+            عصا
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ا ك ب ر
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            اکبر 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">         
+            <p class="arab-para">
+            و ق ت
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden2">
+            وقت
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ث ق ي ل
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            ثقيل
+            </span>              
+            </p>
+         </div>
+
+         
+         <div class="ex2">         
+            <p class="arab-para">
+            ا ك ت ظ ا ظ 
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="8">        
+          
+            <span class="hidden2">
+            اكتظاظ
+            </span>  
+            </p>           
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            زوج
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            زوج
+            </span>              
+            </p>
+         </div>
+
+
+
+         <div class="ex2">
+            <p class="arab-para">
+            حجاب
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            ح ج ا ب
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            حج 
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            ح ج
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            ن ع ن ا ع 
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            نعناع
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ل ح م
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            ح ج
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            ق م ح
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            قمح 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            خ و خ
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            خوخ 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            ا ل ش ي خ
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            الشيخ 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ج ر ا د
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            جراد
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            ا ل ش ي خ
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            الشيخ 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            د خ و ل
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            دخول
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            م د خ ل
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            مدخل  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex1">
+            <p class="arab-para">
+            ت ر ك س ت ا ن
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            تركستان 
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            ا ل ش ر ق
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            الشرق   
+            </span>              
+            </p>
+         </div>
+         
+         <div class="ex1">
+            <p class="arab-para">
+            ف ي ص ل
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            فیصل  
+            </span>              
+            </p>
+         </div>
+
+         <div class="ex2">
+            <p class="arab-para">
+            أ خ ض ر
+            &#8668;
+            <input type="text" class="text-answer" size="8" maxlength="6">        
+          
+            <span class="hidden2">
+            أخضر  
+            </span>              
+            </p>
+         </div>
+
+         <div class="toggle">
+         <button id="show2">Show Results</button>
+         <button id="hide2">Hide Results</button>         
+         </div>
+
+
+
+
+
+
+         				
+
+
+			  <!-- Scroll to top button starts-->
+			  <button					
+					class="scrollToTop"
+					onclick="topFunction()" id="myBtn" title="Go to top">
+					⌃					
+			  </button>	
+
+
+		 </div> <!-- main-content -->
+	  </div> <!-- main-text -->
+
+	  
+	  <footer class="footer">
+		<div class="footer-div">
+			<p class="footer-para">Copyright &copy; 2021 arabicpath.com</p>
+			<p class="footer-para">All Rights Reserved</p>
+			<!-- <p class="footer-para">Learn German grammar step by step @ <a target="_blank" href="https://lets-learn-german.com" style="color: DarkTurquoise; text-decoration: none;">www.lets-learn-german.com</a></p> -->
+		</div>
+
+		<div class="footer-div">
+		<p class="footer-para">
+			<a href="../contact/contact-us.html" class="footer-link">Contact Us</a> |
+			<!-- <a href="common/site-navigation" class="footer-link">Site Navigation</a> | -->
+			<a href="../common/privacy-policy" class="footer-link">Privacy Policy</a> |          
+			<a href="../common/about-us" class="footer-link">About Us</a> |
+			<a href="../common/terms-of-use" class="footer-link">Terms of Use</a> 
+		</p>
+		</div>
+	  </footer>
+
+	  <script>
+	  // mobile nav (curtain) start
+		function openNav() {
+		document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		document.getElementById("myNav").style.width = "0%";
+		}
+		// mobile nav (curtain) end
+
+		// scroll to top start
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		// scroll to top end
+		
+	  </script>
+
+ 
+         <script>
+         $(document).ready(function(){
+            $("#hide1").click(function(){
+               $(".hidden").hide();
+            });
+            $("#show1").click(function(){
+               $(".hidden").show();
+            });
+
+            $("#hide2").click(function(){
+               $(".hidden2").hide();
+            });
+            $("#show2").click(function(){
+               $(".hidden2").show();
+            });
+         });
+         </script>
+
+
+</body>
+</html>

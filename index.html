@@ -1,4 +1,4 @@
-<!doctype html>
+   <!doctype html>
 
 <html lang="en">
 
@@ -9,12 +9,34 @@
   <link
 			rel="shortcut icon"
 			href="favicon.ico"
-	/>	
+	/>
 	<meta name="author" content="arabicpath.com">
 
 	<link rel="stylesheet" href="include-index/main.css">
 
+	<!-- google analytics starts-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH4CKN13C8"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-QH4CKN13C8');
+		</script>
+	<!-- google analytics  ends-->
+
    <style>
+
+      .arab-para {
+            direction: rtl;
+            text-align: right;
+            font-family: calibri, tahoma, sans-serif;
+            font-size: 2.8rem;
+            margin-top: 2px;
+            margin-bottom: 2px;
+         }
+
       .rtl {
          direction: rtl;
          }
@@ -30,7 +52,7 @@
       }
 
       /* table start */
-               
+
          .table2 {
          text-align: center;
          border-collapse: collapse;
@@ -45,13 +67,13 @@
 
          .table2 tr:nth-child(even){background-color: #dae7f1;}
          .table2 tr:nth-child(odd){background-color: #c8dcea;}
-         
+
 
          .table2 tr:hover {background-color: #ddd;}
 
          .table2 th {
          padding-top: 12px;
-         padding-bottom: 12px;         
+         padding-bottom: 12px;
          background-color: #04AA6D;
          background-color: #4381ad;
          color: white;
@@ -60,898 +82,212 @@
          line-height: 1.6em;
          }
 
-         
-
-         /* normal css */
-
-         /* scroll to top button start */
-		.scrollToTop {
-			padding: 10px 10px 0 10px;
-			background-color: hsl(205,44%,47%);
-			border: none;
-			color: white;
-			font-size: 1.5em;
-			opacity: 70%;
-			position: fixed;
-			bottom: 5px;
-			right: 5px;
-			cursor: pointer;
-			/* visibility: hidden; */
-		}
-		/* scroll to top button ends */
-
-		/* mobile side bar starts */
-		.hamburger {
-		font-size: 1.8em;
-		font-weight: bold;	
-		padding-left: 10px;
-		padding-top: 2px;
-		/* padding-right: 4px;  */      
-		outline: none;
-		float: left;
-		color: White;
-		}
-
-
-		
-.overlay {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: hsl(205,44%,47%);
-	overflow-x: hidden;
-	transition: 0.5s;
- }
- 
- .overlay-content {
-	position: relative;
-	top: 10%;
-	width: 100%;
-	/* text-align: center; */
-	margin-top: 20px;
- }
- 
- .overlay a {
-	padding: 5px;
-	text-decoration: none;
-	font-size: 1.3em;
-	color: whitesmoke;
-	display: block;
-	transition: 0.3s;	
- }
- 
- .overlay a:hover, .overlay a:focus {
-	color: #f1f1f1;
- }
- 
- .overlay .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
- }
-
- .sidebar-items {
-	 list-style-type: none;
-	 padding-inline-start: 30px;
- }
-
- 
-		/* mobile sidebar ends */
-
-		html, body, .heading-one{
-			padding: 0;
-			margin: 0; 
-		}
-		body{
-			font-family: Arial, sans-serif;			
-		}
-
-		.heading-one{
-			font-size: 2em;
-			color:  white;
-			text-shadow: 1px 1px 2px lightblue;
-			font-family: calibri, Arial, sans-serif;
-		}
-		.heading-main{
-			font-size: 2.5em;
-			color: #4381ad;
-			text-shadow: 1px 1px 2px lightblue;
-			font-family: calibri, Arial, sans-serif;
-		}
-		.heading-two{
-			font-size: 2em;
-			color: #4381ad;
-			text-shadow: 0.4px 0.4px 0.4px lightblue;
-			font-family: calibri, Arial, sans-serif;
-		}
-		.heading-three{
-			font-size: 1.8em;
-			color: #4381ad;
-			text-shadow: 0.2px 0.2px 0.2px lightblue;
-			font-family: calibri, Arial, sans-serif;
-		}
-		.headerbar{
-			background: rgb(67,129,173);
-			background: linear-gradient(180deg, rgba(67,129,173,1) 74%, rgba(40,84,116,1) 100%);
-			text-align: center;
-			-webkit-box-shadow: 0 10px 6px -6px #777;
-			-moz-box-shadow: 0 10px 6px -6px #777;
-			box-shadow: 0 10px 6px -6px #777;
-			padding-bottom: 5px;
-		}
-
-		.sidebar{
-			display: none;
-		}
-
-		.text-link {
+         .topic-link {
 			color: rgb(0, 63, 238);
 			cursor: pointer;
 			text-decoration: none;
-			font-size: 1.2rem;
 			border-bottom: 1px dotted rgb(0, 63, 238);
-		}
-
-		li {
-			font-size: 1.2rem;
-			line-height: 2em;
-		}
-
-		/* li markers starts */
-
-			.marker-tick > li::marker{
-			content: "✔ ";
-			color: darkgray;
-		 	}
-
-		 	.marker-cross > li::marker{
-			content: "✖ ";
-			color: darkgray;
-		 	}
-
-		 	.marker-tire > li::marker{
-			content: "◉ ";
-			color: darkgray;
-		 	}
-			 
-		/* li markers ends */
-
-		.para{
-			font-size: 1.2rem;
-			line-height: 1.6em;
-		}	
-
-
-		.main-content{
-			margin: 12px 25px;
-		}
-
-		
-		footer.footer {
-			display: flex;
-			flex-wrap: wrap-reverse;
-			justify-content: center;
-			background-color: #333;
-			color: hsl(205,90%,75%);
-			font-size: 1em;
-			text-align: center;
-			margin: 0;
-			margin-top: 30px;
-			padding: 15px 20px 15px 20px;
-		}
-						
-		footer.footer p {
-			margin: 10px 0 10px 0;
-			padding: 0;
-		}
-
-		.footer-link {
-			text-decoration: none;
-			color: hsl(205,90%,75%);
-			display: inline-block;
-		}
-
-		.footer-link:hover {
-			color: whitesmoke;
-			text-decoration: underline;
-		}
-
-		.footer-div {
-			width: 100%;
-			margin: 0 10px 0 10px;
-		}
-
-		.topics > li::marker {
-			color: blue;
-		}
-
-		
-
-		/* ----------------------  responsive table start */
-
-		table {
-			border-collapse: collapse;
-			border-spacing: 0;
-			width: 100%;
-			border: 1px solid #ddd;
-		 }
-		 
-		 th,
-		 td {
-			text-align: left;
-			padding: 8px;
-		 }
-		 
-		 tr:nth-child(even) {
-			background-color: #f2f2f2;
-		 }
-		 
-		 sup {
-			vertical-align: super;
-			font-size: smaller;
-		 }
-		 
-		 tr > td:nth-of-type(2) {
-			width: 40%;
-		 }
-		 
-		 table {
-			margin-top: 10px;
-			margin-bottom: 10px;
-		 }
-		 
-		 th {
-			vertical-align: middle;
-			font-weight: 500;
-		 }
-		 
-		 .footnotes {
-			font-size: 0.8em;
-			font-family: serif;
-		 }
-		 
-		 ol.notes {
-			counter-reset: list;
-			margin-left: 0;
-		 }
-		 ol.notes > li {
-			list-style: none;
-		 }
-		 ol.notes > li:before {
-			content: counter(list, decimal) ") ";
-			counter-increment: list;
-		 }
-	
-		/* ----------------------  responsive table end */	
-
-
-	   @media screen and (min-width: 970px) {
-			/* grid starts */
-			 body{
-				display: grid;
-				grid-template-columns: 280px 1fr;
-				grid-template-rows: auto auto auto;
-
-				grid-template-areas: 
-				"header header"
-				"sidebar main"
-				"footer footer";    
-			 }                  
-			 .headerbar{
-				grid-area: header;
-			 }
-			 .sidebar{
-				grid-area: sidebar;            
-			 }
-			 .main-content{
-				grid-area: main;   
-			 }
-			.footer{
-				grid-area: footer;            
-			 }
-			 /* grid ends */
-
-			 /* mobile nav  starts*/
-			 .hamburger {
-				 display: none;
-			 }
-			 .sidebar1{
-				 display: none;
-			 }
-			 /* mobile nav ends*/
-
-			 .sidebar {
-				display: block;   
-				background-color: white;
-				margin-left: 15px;
-				margin-top: 25px;
-				line-height: 1.5em;
-			 }
-
-			 a.sidebar-link {
-				margin: 5px 0 0 0;
-				display: block;
-				padding: 15px 15px 15px 15px;
-				font-size: 1.1em;
-				text-decoration: none;
-				color: hsl(205,44%,20%);
-				background-color: white;
-				border: 2px solid hsl(205,44%,47%);
-				border-radius: 25px;
-				-webkit-transform: all 2s;
-				-ms-transform: all 2s;
-				transform: all 2s;
-				cursor: pointer;
-				font-weight: 500;
-				-webkit-transition-property: background-color, border;
-				-o-transition-property: background-color, border;
-				transition-property: background-color, border;
-				-webkit-transition-duration: 0.5s;
-				-o-transition-duration: 0.5s;
-				transition-duration: 0.5s;
-				line-height: 1.5em;
-			 }
-
-			.active-sidebar-link {
-				margin: 5px 0 0 0;
-				display: block;
-				padding: 15px 15px 15px 15px;
-				text-decoration: none;
-				border: 2px solid hsl(205,44%,47%);
-				border-radius: 25px;
-				-webkit-transform: all 2s;
-				-ms-transform: all 2s;
-				transform: all 2s;
-				cursor: pointer;
-				font-weight: 500;
-				font-size: 1.1em;
-				-webkit-transition-property: background-color, border;
-				-o-transition-property: background-color, border;
-				transition-property: background-color, border;
-				-webkit-transition-duration: 0.5s;
-				-o-transition-duration: 0.5s;
-				transition-duration: 0.5s;
-
-				background-color: hsl(205,44%,47%);
-				border: 3px solid hsl(205,44%,47%);
-				color: white;
-				outline: none;
-				line-height: 1.5em;
-			}
-
-			a.sidebar-link:hover {
-				background-color: hsl(205,44%,47%);
-				border: 3px solid hsl(205,44%,47%);
-				color: white;
-				font-weight: 600;
-				line-height: 1.5em;
-			}
-
-			.other-topic {
-				margin: 5px 0 0 0;
-				display: block;
-				padding: 15px 15px 15px 15px;
-				text-decoration: none;
-				border-radius: 25px;
-				/* border-bottom: 1px dashed grey; */
-				-webkit-transform: all 2s;
-				-ms-transform: all 2s;
-				transform: all 2s;
-				/* text-transform: capitalize; */
-				cursor: pointer;
-				font-weight: 600;
-				-webkit-transition-property: background-color, border;
-				-o-transition-property: background-color, border;
-				transition-property: background-color, border;
-				-webkit-transition-duration: 0.5s;
-				-o-transition-duration: 0.5s;
-				transition-duration: 0.5s;
-
-				background-color: #dae7f1;
-				border: 3px solid rgb(3, 62, 104);
-				color: rgb(3, 62, 104);
-				outline: none;
-			}
-
-
-			.main-content{
-				margin: 12px 25px;
-			}
-
-	
-			footer.footer {
-				display: flex;
-				flex-wrap: wrap-reverse;
-				justify-content: center;
-				background-color: #333;
-				color: hsl(205,90%,75%);
-				font-size: 1em;
-				text-align: center;
-				margin: 0;
-				margin-top: 30px;
-				padding: 15px 20px 15px 20px;
-			}
-						
-			footer.footer p {
-				margin: 10px 0 10px 0;
-				padding: 0;
-			}
-
-			.footer-link {
-				text-decoration: none;
-				color: hsl(205,90%,75%);
-				display: inline-block;
-			}
-
-			.footer-link:hover {
-				color: whitesmoke;
-				text-decoration: underline;
-			}
-
-			.footer-div {
-				width: 35%;
-				/* background-color: blue; */
-				margin: 0 10px 0 10px;
-			}
-
-			/* no ads on desktop */
-			.mobile-ad {
-				display: none;
-			}
-
 		}
    </style>
 
 
-   <title>Arabic Alphabet</title>
+   <title>Learn Arabic</title>
 
-   <meta name="description" content="Learn Arabic alphabet in English. All Arabic letters in English. Arabic alphabet with english translation. Learn Arabic letters and pronunciation.">
+   <meta name="description" content="A free Arabic learning course in English.">
 
-   <link rel="amphtml" href="https://arabicpath/index.amp.php">
+   <link rel="canonical" href="https://arabicpath/index">
 
 </head>
 
-<body>	
+<body>
    <header class="headerbar">
-      <p class="heading-one">Learn Arabic</p>          
-   </header>	 
+      <!-- Mobile sidebar icon starts -->
+      <div role="button" class="hamburger">
+      <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>
+      <!-- Mobile sidebar icon ends -->
 
-   
+      <p class="heading-one">Learn Arabic</p>
+   </header>
+
+
+<!-- Mobile nav -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+		<ul class="sidebar-items">
+
+			<li><a href="index">Home</a></li>
+
+			<li><a href="./basic-arabic/arabic-alphabet">Arabic alphabet</a></li>
+			<li><a href="./basic-arabic/arabic-joining-letters">Arabic joining letters</a></li>
+			<li><a href="./basic-arabic/arabic-short-vowels">Arabic short vowels</a></li>
+			<li><a href="./basic-arabic/arabic-long-vowels">Arabic long vowels</a></li>
+			<li><a href="./basic-arabic/sukoon">Sukoon in Arabic</a></li>
+			<li><a href="./basic-arabic/tanween">Tanween in Arabic</a></li>
+			<li><a href="./basic-arabic/shadda">Shadda in Arabic</a></li>
+
+		</ul>
+  </div>
+</div>
+
+	<!-- desktop sidebar start -->
+	<aside class="sidebar">
+
+		<a class="active-sidebar-link" href="index">Home</a>
+
+		<a href="./basic-arabic/arabic-alphabet" class="sidebar-link">Arabic alphabet</a>
+		<a href="./basic-arabic/arabic-joining-letters" class="sidebar-link">Arabic joining letters</a>
+		<a href="./basic-arabic/arabic-short-vowels" class="sidebar-link">Arabic short vowels</a>
+		<a href="./basic-arabic/arabic-long-vowels" class="sidebar-link">Arabic long vowels</a>
+		<a href="./basic-arabic/sukoon" class="sidebar-link">Sukoon in Arabic</a>
+
+		<a href="./basic-arabic/tanween" class="sidebar-link">Tanween in Arabic</a>
+
+		<a href="./basic-arabic/shadda" class="sidebar-link">Shadda in Arabic</a>
+
+
+	</aside>
+<!-- desktop sidebar end -->
+
    <div class="main-content">
       <div class="main-text">
 
-         <h1 class="heading-main">Learn Arabic Alphabet</h1>
+        <div style="background: lightgreen; padding: 10px 10px 10px 5px ;">
+          <p style="font-size: 2rem; color: darkblue; font-weight: bold; margin: 0;">
+            We are working on sound files. Please come back later.
+          </p>
+        </div>
+
+
+         <h1 class="heading-main">Learn Arabic</h1>
+
+         <p class="para">
+         Arabic belongs to the group of languages, which are written from right to left. As almost all of the Western European languages share the Roman script, many Middle Eastern and old Central Asian languages share the Arabic script. Some of these languages include Kurdish, Persian, Dari, Urdu, Pashto, Punjabi (Pakistan), Sindhi, Baluchi, Kashmiri, old Turkish script (languages of modern-day Turkey and other Turkic languages from the Central Asian region).
+         </p>
+
+         <p class="para">
+         Today, Arabic is the national language of 20 countries and is widely understood in all Muslim majority countries. Almost every Muslim in the world can at least read Arabic.
+         </p>
+
+         <p class="para">
+         Arabic learning for English speakers is generally considered a hard task. I think the hard part is only the Arabic script learning. Once the student learns how to read Arabic, then it’s like learning any other European language with different grammatical structure and rules.
+         </p>
+
+         <p class="para">
+         This course is designed in a way that absolute beginners, who have even never seen Arabic alphabet can start and take it to advanced level of Arabic grammar, without need of a physical instructor. The course is of course designed in a step by step progress.  First 8 lessons emphasize on learning to read Arabic, which is the most critical phase for most of the English speakers. It is highly recommended not to jump or skip a lesson, even it feels a bit difficult. The every next lesson is based on the previous progress. Be patience, and take your time, 1 day, 2 days or even more on a lesson and only proceed to the next when you have completely understood the current one.
+         </p>
+
+         <p class="para">
+         Writing practice is most important and helps a lots in remembering things on long terms basis. It is also recommended to write on separate paper rather than typing with keyboard, although text input boxes are given in some lessons.
+         </p>
+
+         <p class="para">
+         Topics included in this website are:
+         </p>
 
          <h2 class="heading-two">
-         1.	Arabic script writing
+            <a class="topic-link" href="basic-arabic/arabic-alphabet">Arabic Alphabet</a>
          </h2>
 
-			<a href="basic-arabic/arabic-vowels" class="text-link">Arabic Vowels</a>
+         <ol class="topics">
+            <li>
+               <a href="basic-arabic/arabic-alphabet#arabic-script" class="text-link">Arabic script writing</a>
+            </li>
+            <li>
+               <a href="basic-arabic/arabic-alphabet#arabic-letters" class="text-link">Arabic letters</a>
+            </li>
+         </ol>
 
-         <p class="para">
-         Arabic belongs to the group of languages, which are written from
-         <a href="https://en.wikipedia.org/wiki/Right-to-left_script" target="_new" class="text-link">right to left</a>. As almost all of the Western European languages share the Roman script, many Middle Eastern and old Central Asian languages share the Arabic script. Some of these languages include Kurdish, Persian, Dari, Urdu, Pashto, Punjabi (Pakistan), Sindhi, Baluchi, Kashmiri, old Turkish script (languages of modern-day Turkey and other Turkic languages from the Central Asian region).
-         </p>
+         <h2 class="heading-two"><a href="./basic-arabic/arabic-joining-letters" class="topic-link">Arabic Connecting Letters</a></h2>
 
-         <p class="para">
-         Today, Arabic is the national language of 20 countries and is widely understood in all Muslim majority countries. Almost every Muslim in the world can at least read Arabic.  
-         </p>
+         <ol class="topics">
+            <li><a href="./basic-arabic/arabic-joining-letters#arabic-word-fragmentation" class="text-link">What is a word segment?</a></li>
+            <li><a href="./basic-arabic/arabic-joining-letters#arabic-non-connecting-letters" class="text-link">Arabic non-connecting letters</a></li>
+            <li><a href="./basic-arabic/arabic-joining-letters#Joining-arabic-letters-chart" class="text-link">Joining Arabic letters chart</a></li>
+            <li><a href="./basic-arabic/arabic-joining-letters#ex1" class="text-link">Exercise 1</a></li>
+            <li><a href="./basic-arabic/arabic-joining-letters#ex2" class="text-link">Exercise 2</a></li>
+         </ol>
 
-         <p class="para">
-         The Arabic alphabet has 29 letters. There is no capital or small form distinction in Arabic. All of these letters are consonants. There are vowels in Arabic, which give specific sounds to these consonants. However, this unit is about learning consonants. Arabic vowels will be discussed after learning consonants and consonant combinations.
-         </p>
+         <h2 class="heading-two"><a href="arabic-short-vowels" class="topic-link">Arabic Vowels</a></h2>
 
-         <p class="para">
-         This course is designed for English speakers and absolute beginners. The first unit and its subunits are about learning the Arabic alphabet, sounds of individual letters, changes in letters’ pronunciations with the help of vowels, and sounds of consonant combinations. Most of the people who speak languages written in the Arabic script can read Arabic. If you feel you don’t need these initial steps of learning, feel free to jump to unit 5 (Arabic nouns).
-         </p>
+         <ol class="topics">
+            <li><a href="./basic-arabic/arabic-short-vowels#arabic-short-vowels" class="text-link">Arabic short vowels</a></li>
+            <li><a href="./basic-arabic/arabic-short-vowels#arabic-vowels-and-consonants" class="text-link">Arabic vowels and consonants</a></li>
+            <li><a href="./basic-arabic/arabic-short-vowels#ex1" class="text-link">Exercise</a></li>
+         </ol>
 
-         <h2 class="heading-two">
-         2.	Arabic letters
-         </h2>
+         <h2 class="heading-two"><a href="./basic-arabic/arabic-long-vowels" class="topic-link">Arabic Long Vowels</a></h2>
 
-         <p class="para">
-         Following is the Arabic alphabet pronunciation (i.e. the names of letters in the Arabic script). Then we will learn sounds of Arabic letters (i.e. how actually a letter sounds in a word). 
-         </p>
+         <ol class="topics">
+            <li><a href="./basic-arabic/arabic-long-vowels#arabic-long-vowels" class="text-link">What are Arabic long vowels?</a></li>
+            <li><a href="./basic-arabic/arabic-long-vowels#arabic-long-vowels-chart" class="text-link">Arabic long vowels chart</a></li>
+            <li><a href="./basic-arabic/arabic-long-vowels#ex1" class="text-link">Exercise</a></li>
+         </ol>
+
+         <h2 class="heading-two"><a href="./basic-arabic/sukoon" class="topic-link">Sukoon</a></h2>
+
+         <ol class="topics">
+            <li><a href="./basic-arabic/sukoon#arabic-sukoon" class="text-link">What is sukoon in Arabic?</a></li>
+            <li><a href="./basic-arabic/sukoon#arabic-sukoon-examples" class="text-link">Examples of Arabic Sukoon symbol</a></li>
+            <li><a href="./basic-arabic/sukoon#arabic-diphthongs" class="text-link">Arabic diphthongs</a></li>
+            <li><a href="./basic-arabic/sukoon#arabic-long-vowels-and-diphthogs" class="text-link">Comparison between long vowels and diphthongs</a></li>
+            <li><a href="./basic-arabic/sukoon#ex1" class="text-link">Exercise</a></li>
+         </ol>
+
+         <h2 class="heading-two"><a href="./basic-arabic/tanween" class="topic-link">Tanween</a></h2>
+
+
+         <ol class="topics">
+            <li><a href="./basic-arabic/tanween#arabic-tanween" class="text-link">Tanween in Arabic</a></li>
+            <li><a href="./basic-arabic/tanween#tanween-rules" class="text-link">Tanween rules</a></li>
+            <li><a href="./basic-arabic/tanween#ta-marboota" class="text-link">Ta marboota</a></li>
+            <li><a href="./basic-arabic/tanween#tanween-examples" class="text-link">Tanween examples</a></li>
+         </ol>
+
+         <h2 class="heading-two"><a href="./basic-arabic/shadda" class="topic-link">Shadda</a></h2>
+
+
+         <ol class="topics">
+            <li><a href="./basic-arabic/shadda#arabic-shadda" class="text-link">Shadda in Arabic</a></li>
+            <li><a href="./basic-arabic/shadda#shadda-rules" class="text-link">Shadda rules</a></li>
+            <li><a href="./basic-arabic/shadda#shadda-examples" class="text-link">Shadda examples</a></li>
+            <li><a href="./basic-arabic/shadda#reading-practice" class="text-link">Reading practice</a></li>
+         </ol>
 
 
 
-                          
-         <table class="table2">
-            <tr>
-               <th width="50%">
-               Arabic alphabet in English
-               <br>
-               Text direction
-               <br>
-               &#10140;
-               </th>
-               <th width="50%">
-               Arabic alphabet pronunciation
-               <br>
-               Text direction 
-               <br>
-               <span style="transform: rotate(180deg);  display: inline-block;">
-               &#10140;</span>              
-               </th>
-            </tr>
 
-            <tr>               
-               <td>
-               Alif
-               </td>
 
-               <td>
-               <span class="arabic rtl">
-               ا
- 
-               </span>
-               </td>
-            </tr>     
-
-            <tr>               
-               <td>
-               Baa (bāʾ)
-               </td>
-
-               <td>
-               <span class="arabic rtl">
-               ب
-               </span>
-               </td>
-            </tr>  
-
-            <tr>
-               <td>
-               Taa  (tāʾ)
-               </td>
-
-               <td>
-               <span class="arabic rtl">
-               ت
-          
-               </span>
-               </td>            
-            </tr>
-
-            <tr>
-               <td>
-               Thaa (thāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ث
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Jeem (jīm)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ج
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Haa (ḥāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ح
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Khaa (khāʾ)
-               </td>
-               <td>
-               <span class="arabic rtl">
-               خ
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Dal (dāl)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               د
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Zaal (dhāl)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ذ
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Raa (rāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ر
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Zaa (zāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ز
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Seen (sīn)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               س
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Sheen (shīn)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ش
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Saad (ṣād)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ص
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Daad (ḍād)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ض
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Taa (ṭāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ط
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Zaa (ẓāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ظ
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Ein (ʿayn)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ع
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Ghein (ghayn)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               غ
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Faa (fā)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ف 
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Qaaf (qāf)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ق  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Kaaf (kāf)
-               </td>
-               
-               <td>
-               Kaaf can be written in two ways
-               <br>
-               <span class="arabic rtl">                   
-               <span>ك</span> ، <span>ک</span>
-          
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Laam (lām)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ل  </span>
-             
-            
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Meem (mīm)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               م  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Noon (nūn)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ن  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Wow (wāw)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               و  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Haa (hāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ه  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Hamza
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ء  
-               </span>
-               </td>
-            </tr>
-
-            <tr>
-               <td>
-               Yaa (yāʾ)
-               </td>
-               
-               <td>
-               <span class="arabic rtl">
-               ي  
-               </span>
-               </td>
-            </tr>
-         
-         </table>
-
-         				
 
 
 			  <!-- Scroll to top button starts-->
-			  <button					
+			  <button
 					class="scrollToTop"
 					onclick="topFunction()" id="myBtn" title="Go to top">
-					⌃					
-			  </button>	
+					⌃
+			  </button>
 
 
 		 </div> <!-- main-content -->
 	  </div> <!-- main-text -->
 
-	  
+
 	  <footer class="footer">
 		<div class="footer-div">
 			<p class="footer-para">Copyright &copy; 2021 arabicpath.com</p>
 			<p class="footer-para">All Rights Reserved</p>
+			<!-- <p class="footer-para">Learn German grammar step by step @ <a target="_blank" href="https://lets-learn-german.com" style="color: DarkTurquoise; text-decoration: none;">www.lets-learn-german.com</a></p> -->
+		</div>
+
+		<div class="footer-div">
+		<p class="footer-para">
+			<a href="contact/contact-us.html" class="footer-link">Contact Us</a> |
+			<!-- <a href="common/site-navigation" class="footer-link">Site Navigation</a> | -->
+			<a href="common/privacy-policy" class="footer-link">Privacy Policy</a> |
+			<a href="common/about-us" class="footer-link">About Us</a> |
+			<a href="common/terms-of-use" class="footer-link">Terms of Use</a>
+		</p>
 		</div>
 	  </footer>
 
@@ -987,8 +323,10 @@
 		document.documentElement.scrollTop = 0;
 		}
 		// scroll to top end
-		
-	  </script>        
+
+	  </script>
+
+
 
 
 </body>
