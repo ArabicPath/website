@@ -78,7 +78,7 @@ h1 {
 p {
   text-align: center;
   padding: 0 10px;
-  /* margin-bottom: 55px; */
+  margin: 30px auto 30px auto;
   line-height: 1.8; }
 
 .form-group {
