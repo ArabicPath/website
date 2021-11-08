@@ -1,4 +1,823 @@
-<br />
-<b>Warning</b>:  require_once(../read-arabic/include-read-arabic/head.php): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\arabipath-php2html\src\arabic-grammar-overview.php</b> on line <b>1</b><br />
-<br />
-<b>Fatal error</b>:  require_once(): Failed opening required '../read-arabic/include-read-arabic/head.php' (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\arabipath-php2html\src\arabic-grammar-overview.php</b> on line <b>1</b><br />
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+			rel="shortcut icon"
+			href="../favicon.ico"
+	/>	
+	<meta name="author" content="arabicpath.com"> 
+
+	<link rel="stylesheet" href="../main.css">
+
+	<!-- Bento start -->
+
+		<!-- AMP runtime script -->
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<!-- Bento component stylesheet -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.ampproject.org/v0/amp-bento-component-name-1.0.css">
+		<!-- Bento component script -->
+		<script async custom-element="amp-bento-component-name" src="https://cdn.ampproject.org/v0/amp-bento-component-name-1.0.js"></script>
+
+
+	<!-- Bento ends -->
+
+	<!-- google analytics starts-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH4CKN13C8"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-QH4CKN13C8');
+		</script>
+	<!-- google analytics  ends--> 
+
+<!-- amp audio -->
+<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
+
+<style>
+   .rtl {
+      direction: rtl;
+      }
+
+   .arabic {
+      font-family: calibri, tahoma, sans-serif;
+      font-size: 2.8rem;
+   }
+
+   .arabic-audio {
+      height: 30px;
+      width: 110px;
+   }
+
+   /* table start */
+            
+      .table2 {
+      text-align: center;
+      border-collapse: collapse;
+      width: 100%;
+      }
+
+      .table2 td, .table2 th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      font-size: 1.3rem;
+      }
+
+      .table2 tr:nth-child(even){background-color: #dae7f1;}
+      .table2 tr:nth-child(odd){background-color: #c8dcea;}
+      
+
+      .table2 tr:hover {background-color: #ddd;}
+
+      .table2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;         
+      background-color: #04AA6D;
+      background-color: #4381ad;
+      color: white;
+      font-weight: bold;
+      line-height: 1.6em;
+      }
+</style>
+
+
+<title>Arabic grammar</title>
+
+<meta name="description" content="An elementary overview of the grammatical structure of  Arabic language.">
+
+<link rel="canonical" href="https://arabicpath/basic-arabic/arabic-grammar-overview">
+
+</head>
+
+<body>	
+<header class="headerbar">
+   <!-- Mobile sidebar icon starts -->
+   <div role="button" class="hamburger">
+   <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+   </div>
+   <!-- Mobile sidebar icon ends -->
+
+   <p class="heading-one">Learn Arabic</p>          
+</header>	 
+
+
+<!-- Mobile nav -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+		<ul class="sidebar-items">
+
+			<li><a href="../index">Home</a></li>
+			<li><a href="../read-arabic/arabic-alphabet">Arabic alphabet</a></li>
+			<li><a href="../read-arabic/arabic-joining-letters">Arabic joining letters</a></li>
+			<li><a href="../read-arabic/arabic-short-vowels">Arabic short vowels</a></li>
+			<li><a href="../read-arabic/arabic-long-vowels">Arabic long vowels</a></li>
+			<li><a href="../read-arabic/sukoon">Sukoon in Arabic</a></li>
+			<li><a href="../read-arabic/tanween">Tanween in Arabic</a></li>
+			<li><a href="../read-arabic/shadda">Shadda in Arabic</a></li>		
+			<li><a href="../read-arabic/arabic-letter-hamza">Hamza in Arabic</a></li>
+			<li><a href="../read-arabic/arabic-reading">Reading rules summary</a></li>
+			<li><a href="arabic-grammar-overview">Arabic grammar overview</a></li>
+
+
+
+		</ul>
+  </div>
+</div>
+	
+	<!-- desktop sidebar start -->
+	<aside class="sidebar">		  
+
+		<a class ="other-topic" href="../index" >Home</a>
+
+		
+		<a class ="sidebar-link" href="../read-arabic/arabic-alphabet" >Arabic alphabet </a>
+ 
+		<a class ="sidebar-link" href="../read-arabic/arabic-joining-letters" >Arabic joining letters</a>
+
+		<a class ="sidebar-link" href="../read-arabic/arabic-short-vowels" >Arabic short vowels</a>
+
+		<a class ="sidebar-link" href="../read-arabic/arabic-long-vowels" >Arabic long vowels</a>
+
+		<a class ="sidebar-link" href="../read-arabic/sukoon" >Sukoon in Arabic</a>
+
+		<a class ="sidebar-link" href="../read-arabic/tanween" >Tanween in Arabic</a>
+
+		<a class ="sidebar-link" href="../read-arabic/shadda" >Shadda in Arabic</a>
+
+		<a class ="sidebar-link" href="../read-arabic/arabic-letter-hamza" >Hamza in Arabic</a>
+
+		<a class ="sidebar-link" href="../read-arabic/arabic-reading" >Reading rules summary</a>
+
+		<a class ="active-sidebar-link" href="../basic-arabic/arabic-grammar-overview" >Arabic grammar overview</a>
+
+
+
+		
+			
+
+		 
+	</aside>  
+<!-- desktop sidebar end -->   
+
+<div class="main-content">
+   <div class="main-text">
+
+      <p class = "lesson" >
+         <a href="../read-arabic/arabic-reading" class="text-link"> 
+            Previous 
+            <span class="left-arrow">➥</span>
+         </a>
+         <span class="unit">Lesson 10</span>    
+         <a href="./arabic-noun" class="text-link"> 
+            <span class="right-arrow">➥</span>
+            Next
+         </a>    
+      </p>	
+
+      <h1 class="heading-main">Arabic Grammar</h1>
+
+      <p class="para">
+         <strong>
+         An overview of Arabic Grammar
+         </strong>
+      </p>
+
+      <p class="para">
+      Arabic is not a member of the Indo-European language group. Some grammatical terms are totally new for English speakers. Also, the grammatical terminologies that have common names in English and Arabic, might have different scopes. Like, Arabic adjectives are a subdivision of nouns. We will cover all grammatical topics step by step in the upcoming lessons. The following is the introduction of the basic structure of Arabic grammar. You should skim through the page to have a rough idea of the Arabic grammatical map.    
+      </p>
+
+      <ol class="topics">
+         <li><a href="#arabic-parts-of-speech" class="text-link">Arabic parts of speech</a></li>
+         <li><a href="#arabic-sentences" class="text-link">Arabic phrases and sentences</a></li>
+      </ol>
+
+      <h2 id="arabic-parts-of-speech" class="heading-two">
+      Arabic parts of speech
+      </h2>
+
+      <p class="para">
+      The following is just an introduction to the Arabic parts of speech. They will be discussed in detail in subsequent lessons.
+      </p>
+
+      <p class="para">
+      Parts of speech in Arabic are the same as in English. However, they are nested in form of a tree structure under a single component "kalima".
+      </p>
+
+      <p class="para">
+      Any meaningful word is called Kalimah
+      ( <span class="arabic">كَلِمَةٌ</span> )
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic Kalima" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/kalima.mp3">
+      </amp-audio>.
+      A kalimah can be any word, i.e. a noun, a preposition, an adjective, a verb, or any other word that has some meanings.   
+      <br>
+      A meaningful word ( <span class="arabic">كَلِمَةٌ</span> ) can be one of three subtypes.
+      </p>
+
+      <div class="desktop-res-img">
+         <amp-img 
+         alt="Arabic parts of speech"
+         src="https://infoarabic.github.io/assets/img/arabic-grammar-overview/ism-fil-harf.jpg"
+         width="640"
+         height="457"
+         layout="responsive"
+         >
+         </amp-img>
+      </div>
+
+      <div class="mobile-res-img">
+         <amp-img 
+         alt="Arabic parts of speech"
+         src="https://infoarabic.github.io/assets/img/arabic-grammar-overview/ism-fil-harf.jpg"
+         width="640"
+         height="457"
+         layout="responsive"
+         >
+         </amp-img>
+      </div>
+
+      <br>
+
+      <h3 class="heading-three" id="arabic-noun">
+      <span class="arabic">اِسْمٌ</span>
+      Noun
+      </h3>
+
+      <p class="para">
+      Arabic noun
+      ( <span class="arabic">اِسْمٌ</span> )
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic Noun" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/ism.mp3">
+      </amp-audio>
+      includes:
+      </p>
+
+      <ol class="thick">
+         <li>
+         Name of any living or nonliving entity
+         </li>
+         <li>
+         Adjective 
+         </li>
+         <li>
+         Verbal noun (Name of an activity)
+         </li>
+         <li>
+         Adverb
+         </li>
+         <li>
+         Interjection   
+         </li>
+         <li>
+         All types of pronouns
+         </li>
+      </ol>
+
+      <p class="para">
+      All the above parts of speech are just rearrangements of their English counterparts. 
+      <br>
+      A verbal noun is the infinite form of a verb, to do, to eat, etc. 
+      </p>
+
+      <p class="para">
+      One new concept for English speakers is that Arabic nouns can be singular, <strong>dual</strong>, and plural. In Arabic, the plurality of a noun starts from three or more numbers of an entity. So, all nouns and verbs decline and inflect accordingly,  i.e. we have a sentence structure in between "he/she does" and "they do", that is "they two do". 
+      </p>
+
+      <h3 class="heading-three">
+      <span class="arabic">فِعْلٌ</span>
+      Verb
+      </h2>
+
+      <p class="para">
+      Arabic verb  
+      ( <span class="arabic">فِعْلٌ</span> )
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic verb" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/fael.mp3">
+      </amp-audio>
+      is a word that shows activity in combination with the time, i.e. a word that indicates activity either in present, past or future. 
+      <br>
+      He is <strong>doing</strong>. He <strong>did</strong>.
+      <br>
+      A word that indicates activity without mentioning time is the <strong>verbal noun</strong>.  
+      </p>
+
+      <h3 class="heading-three">
+      <span class="arabic">حَرْفٌ</span>
+      Harf
+      </h3>
+
+      <p class="para">
+      The literal meaning of Harf 
+      ( <span class="arabic">حَرْفٌ</span> )
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic harf" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/harf.mp3">
+      </amp-audio>
+      is an alphabetic letter i.e. <span class="arabic">ب</span> is a harf. In grammatical terminology or as a part of speech, a "harf" is  a "particle" that is used with a noun ( <span class="arabic">اِسْمٌ</span> ) or a verb ( <span class="arabic">فِعْلٌ</span> ) to complete the understanding of a sentence or harf is a word that requires a noun or a verb to complete its sense.   
+      </p>
+
+      <p class="para">
+      Like, the word <strong>on</strong> itself gives no understandable sense, but "<strong>Put it on the table</strong>"  (using it with a verb and a noun) is an understandable sentence. 
+      </p>
+
+      <h2 id="arabic-sentences" class="heading-two">
+      Arabic phrases and sentences 
+      </h2>
+
+      <p class="para">
+      Parts of speech combine to make phrases and then sentences. The easier way is to start from phrases and then learn sentences. 
+      <br>
+      The plural of <span class="arabic">كَلِمَةٌ</span> (meaningful word) is <span class="arabic">كَلاَمٌ</span> 
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic Adjective Phrase" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/kalam.mp3">
+      </amp-audio>.
+      <br>
+      <span class="arabic">كَلاَمٌ</span> includes phrases (compounds) and sentences.
+      </p>
+
+      <div style="width: 2; height: 1" class="desktop-res-img">
+         <amp-img 
+         alt="Arabic grammar overview"
+         src="https://infoarabic.github.io/assets/img/arabic-grammar-overview/Arabic-grammar-overview.jpg"
+         width="640"
+         height="457"
+         layout="responsive"
+         >
+         </amp-img>
+      </div>
+
+      <div class="mobile-res-img">
+         <amp-img 
+         alt="Arabic grammar overview"
+         src="https://infoarabic.github.io/assets/img/arabic-grammar-overview/Arabic-grammar-overview.jpg"
+         width="640"
+         height="457"
+         layout="responsive"
+         >
+         </amp-img>
+      </div>
+
+      <br>
+
+      <h3 class="heading-three">
+      Arabic phrases
+      </h3>
+
+      <p class="para">
+      The most common Arabic phrases are:
+      </p>
+
+         <h4 class="heading-four">
+            The adjective phrase
+            <br>
+            <span class="arabic">
+            اَلْمُرَكْبُ التَّوْصِيْفِيُّ
+            </span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Adjective Phrase" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/murakb towseefi.mp3">
+            </amp-audio>
+         </h4>
+               
+        <p class="para">
+        In the Arabic adjective phrase, one word describes (quality, characteristic, color, etc of) the other word. 
+        </p>
+
+
+        <ul class="marker-tire">
+           <li>
+            A good book 
+            <br>
+            <span class="arabic">كِتَابٌ جَيِّدٌ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Adjective Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A good book.mp3">
+            </amp-audio> 
+           </li>
+
+           <li>
+            A red car <br>
+            <span class="arabic">سَيَّارَةٌ حَمْرَاءُ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Adjective Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A red car.mp3">
+            </amp-audio>
+           </li>
+
+           <li>
+            A quick fox 
+            <br>
+            <span class="arabic">ثَعْلَبٌ سَرِيْعٌ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Adjective Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A quick fox.mp3">
+            </amp-audio>
+           </li>
+        </ul>
+
+        <br>
+
+        <h4 class="heading-four">
+        The Possessive Phrase
+        <br>
+        <span class="arabic">اَلْمُرَكْبُ الْإِضَافِيُّ</span>
+        <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+         title="Arabic possessive phrase" 
+         artist="arabicpath.com"
+         src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/murakulidafi.mp3">
+         </amp-audio>
+        </h4>
+
+
+         <p class="para">
+         A word in the possessive construction shows possession of the other word.
+         </p>
+
+         <ol class="marker-tire">
+            <li>
+               A book of Haamid 
+               <br>
+               <span class="arabic">كِتَابُ حَامِدٍ</span>
+               <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+               title="Arabic possessive Phrase Example" 
+               artist="arabicpath.com"
+               src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A book of Haamid.mp3">
+               </amp-audio>
+            </li>
+
+            <li>
+               A fox of a jungle  
+               <br>
+               <span class="arabic">ثَعْلَبُ غَابَةٍ</span>
+               <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+               title="Arabic possessive Phrase Example" 
+               artist="arabicpath.com"
+               src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A fox of a jungle.mp3">
+               </amp-audio>
+
+               <br>
+               <span class="arabic">غَابَةٌ</span> means a jungle. <span class="arabic"> اَلْ</span> is the Arabic definite article. Placing <span class="arabic"> اَلْ</span> at the beginning makes it <span class="arabic">اَلْغَابَةُ</span> (the jungle). 
+            </li>
+
+            <li>
+               A fox of the jungle 
+               <br>
+               <span class="arabic">ثَعْلَبُ اَلْغَابَةِ</span>
+               <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+               title="Arabic possessive Phrase Example" 
+               artist="arabicpath.com"
+               src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/A fox of the jungle.mp3">
+               </amp-audio>
+            </li>
+         </ol>
+
+         <p class="para">
+         Same definite article <span class="arabic">اَلْ</span> we see in names of phrases:
+         </p>
+         
+         <p class="arab-para">
+         <span class="arabic">
+         <span style="color: #3366ff;">اَلْ</span>مُرَكْبُ <span style="color: #3366ff;">ال</span>تَّوْصِيْفِيُّ
+         <br>
+         <span class="arabic"><span style="color: #3366ff;">اَلْ</span>مُرَكْبُ <span style="color: #3366ff;">&#x0627;&#xFEDF;</span>إِضَافِيُّ</span>
+         </span>
+         </p>
+
+
+        <p class="para">
+        Also, double vowel ( <span class="arabic">تَنْوِيْن </span> ) is not allowed with the word having a definite article ( <span class="arabic"> اَلْ</span> ), that's why <a href="../read-arabic/tanween#ta-marboota" class="text-link"> <strong>ta marbootah</strong> <span class="arabic">ة</span></a> has single short vowel at the end of <span class="arabic">اَلْغَابَةُ</span>.
+        </p>
+
+        <br>
+
+        <h4 class="heading-four">
+        The Demonstrative Phrase
+        <br>
+        <span class="arabic">اَلْمُرَكْبُ الْإِشَارِيُّ</span>
+         <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+         title="Arabic Demonstrative Phrase" 
+         artist="arabicpath.com"
+         src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/murakb ul ishari.mp3">
+         </amp-audio>
+        </h4>
+
+         <p class="para">
+         Also, known as pointing construction. The demonstrative phrase is used to demonstrate far and near nouns and pronouns. English equivalents are this, that, they, etc  
+         </p>
+
+         <ul class="marker-tire">
+            <li>
+            This book 
+            <br>
+            <span class="arabic">هٰذَا الْكِتَابُ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Demonstrative Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/This book.mp3">
+            </amp-audio>
+            </li>
+
+            <li>
+            That car
+            <br>
+            <span class="arabic">تِلْكَ السَّيَّارَةُ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Demonstrative Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/That car.mp3">
+            </amp-audio>
+            </li>
+         </ul>
+     
+
+         <h4 class="heading-four">
+         The Genitive Phrase
+         <br>
+         <span class="arabic">اَلْمُرَكْبُ الْجَارِيُّ</span>
+         <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+         title="Arabic Genitive Phrase" 
+         artist="arabicpath.com"
+         src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/murakb ul jari.mp3">
+         </amp-audio>
+         </h4>
+
+         <p class="para">
+         The genitive phrase is also known as prepositional construction or prepositional phrase.
+         </p>
+
+         <ul class="marker-tire">
+            <li>
+            On the book 
+            <br> 
+            <span class="arabic">عَلَى الْكِتَابِ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Genitive Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/On the book.mp3">
+            </amp-audio>
+            </li>
+
+            <li>
+            In the car 
+            <br>
+            <span class="arabic">فِي السَّيَّارَةِ</span>
+            <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+            title="Arabic Genitive Phrase Example" 
+            artist="arabicpath.com"
+            src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/In the car.mp3">
+            </amp-audio>
+            </li>
+         </ul>
+
+         <br>
+
+      <h2 class="heading-two">
+      Arabic sentence
+      <br>
+      <span class="arabic">
+      جُمْلَة
+      </span>
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic sentence" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/jumlah.mp3">
+      </amp-audio>
+      </h2>
+
+      <p class="para">
+      Arabic sentences are of two types.
+      </p>
+
+      <ol class="thick">
+         <li>
+            <strong>Nominal sentences</strong> are verbless sentences.   
+         </li>
+         <li>
+            <strong>Verbal sentences</strong> have verbs.
+         </li>
+      </ol>
+
+      <h3 class="heading-three">
+      Nominal sentence
+      <br>
+      <span class="arabic">الْجُمْلَةُ الِْاسْمِيَّةُ</span>
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic nominal sentence" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/Nominal sentence.mp3">
+      </amp-audio>
+      </h3>
+
+
+      <p class="para">
+      The name <span class="arabic">اِسْمِيَّةٌ</span>
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic nominal sentence" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/ismiah.mp3">
+      </amp-audio>
+      is derived from <span class="arabic">اِسْمٌ</span> (noun). 
+      The English verb "to be" has no Arabic counterpart, so a sentence that has the verb "to be" when translated into English, is verbless in Arabic.
+      </p>
+
+      <p class="para">
+         The book is new.
+      </p>
+
+      <p class="arab-para">
+      اَلْكِتَابُ جَدِيْدٌ.
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic nominal sentence example" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/The book is new.mp3">
+      </amp-audio>
+      </p>
+
+      <p class="para">
+      The elephant is big.
+      </p>
+
+      <p class="arab-para">
+      اَلْفِيْلُ كَبِيْرٌ.
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic nominal sentence example" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/The elephant is big.mp3">
+      </amp-audio>
+      </p>
+
+      <h3 class="heading-three">
+      Verbal sentence
+      <br>
+      <span class="arabic">الْجُمْلَةُ الْفِعْلِيَّةُ</span>
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic verbal sentence" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/Verbal sentence.mp3">
+      </amp-audio>
+      </h3>
+
+      <p class="para">
+      The name <span class="arabic">فِعْلِيَّةٌ</span>
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic verbal sentence" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/Verbal.mp3">
+      </amp-audio>
+      is derived from <span class="arabic">فِعْلٌ</span> (verb). 
+      Verbal sentences are normal sentences, like in any other language with verbs. The verb is normally placed at the beginning of the sentence in Arabic but there are other possibilities, which we will discuss in the coming grammar lessons.  
+      </p>
+
+      <p class="para">
+      The child is playing in the garden.
+      </p>
+
+      <p class="arab-para">
+      يَلْعَبُ الطِّفْلُ فِي الْحَدِيْقَةِ.
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic verbal sentence example" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/The child is playing.mp3">
+      </amp-audio>
+      </p>
+
+      
+      <p class="para">
+      The teacher came.
+      </p>
+
+      <p class="arab-para">
+      جَاءَ الْمُعَلِّمُ.
+      <amp-audio width="110" height="30" class="arabic-audio" controls preload="none" 
+      title="Arabic verbal sentence example" 
+      artist="arabicpath.com"
+      src="https://infoarabic.github.io/assets/sounds/arabic-grammar-overview/The teacher came.mp3">
+      </amp-audio>
+      </p>
+
+
+
+
+
+  
+
+      
+      <p class = "lesson" style="text-align: center;" >
+         <a href="../read-arabic/arabic-reading"" class="text-link"> 
+            Previous 
+            <span class="left-arrow">➥</span>
+         </a>
+         <span class="unit">Lesson 10</span>    
+         <a href="./arabic-noun" class="text-link"> 
+            <span class="right-arrow">➥</span>
+            Next
+         </a>    
+      </p>
+
+
+
+
+      				
+
+
+			  <!-- Scroll to top button starts-->
+			  <button					
+					class="scrollToTop"
+					onclick="topFunction()" id="myBtn" title="Go to top">
+					⌃					
+			  </button>	
+
+
+		 </div> <!-- main-content -->
+	  </div> <!-- main-text -->
+
+	  
+	  <footer class="footer">
+		<div class="footer-div">
+			<p class="footer-para">Copyright &copy; 2021 arabicpath.com</p>
+			<p class="footer-para">All Rights Reserved</p>
+			<!-- <p class="footer-para">Learn German grammar step by step @ <a target="_blank" href="https://lets-learn-german.com" style="color: DarkTurquoise; text-decoration: none;">www.lets-learn-german.com</a></p> -->
+		</div>
+
+		<div class="footer-div">
+		<p class="footer-para">
+			<a href="https://arabicpath.com/contact/" class="footer-link">Contact Us</a> |
+			<!-- <a href="common/site-navigation" class="footer-link">Site Navigation</a> | -->
+			<a href="../common/privacy-policy" class="footer-link">Privacy Policy</a> |          
+			<a href="../common/about-us" class="footer-link">About Us</a> |
+			<a href="../common/terms-of-use" class="footer-link">Terms of Use</a> 
+		</p>
+		</div>
+	  </footer>
+
+	  <script>
+	  // mobile nav (curtain) start
+		function openNav() {
+		document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		document.getElementById("myNav").style.width = "0%";
+		}
+		// mobile nav (curtain) end
+
+		// scroll to top start
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		// scroll to top end
+		
+	  </script>
+
+
+		<!--  Bento experiment script start -->
+		<script>
+		(self.AMP = self.AMP || []).push(function (AMP) {
+			AMP.toggleExperiment('bento', true);
+		});
+		</script>
+		<!--  Bento experiment script end -->
+
+ 
+
+
+</body>
+</html>
