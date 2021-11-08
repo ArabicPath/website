@@ -120,6 +120,14 @@
 			color: #4381ad;
 			text-shadow: 0.2px 0.2px 0.2px lightblue;
 		}
+
+		.heading-four{
+			font-family: Helvetica, sans-serif;
+			font-size: 1.6rem;
+			color: #4381ad;
+			text-shadow: 0.2px 0.2px 0.2px lightblue;
+		}
+
 		.color-blue{
 			color: #4381ad;
 		}
@@ -302,7 +310,7 @@
 
 	
 		
-
+	
 
 	   @media screen and (min-width: 970px) {
 			/* grid starts */
@@ -555,3 +563,30 @@
 			/* color: #942c00; */
 		}
 		/* next page link end*/
+
+		
+		/* --- Image center start*/
+
+
+			.mobile-res-img{
+				display: block;
+				width: 95%; text-align: center; margin: 0 auto;
+			}
+			.desktop-res-img {
+				display: none;
+			}
+
+
+			@media screen and (min-width: 970px) {
+
+				.desktop-res-img {
+					display: block;
+					width: 65%; text-align: center; margin: 0 auto;
+				}
+	
+				.mobile-res-img{
+					display: none;
+				}
+			}
+
+		/* --- Image center end */
