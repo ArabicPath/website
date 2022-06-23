@@ -340,7 +340,7 @@
 			/* grid starts */
 			 body{
 				display: grid;
-				grid-template-columns: 280px 1fr;
+				grid-template-columns: 320px 1fr;
 				grid-template-rows: auto auto auto;
 
 				grid-template-areas: 
@@ -618,3 +618,9 @@
 			}
 
 		/* --- Image center end */
+
+
+		.responsive-img {
+			max-width: 100%;
+			height: auto;
+		 }
