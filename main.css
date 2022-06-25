@@ -233,7 +233,7 @@
 
 
 		.main-content{
-			margin: 12px 25px;
+			margin: 12px 10px;
 		}
 
 		
@@ -506,12 +506,35 @@
 				margin: 0 10px 0 10px;
 			}
 
-			/* no ads on desktop */
+		}
+
+/*  mobile and desktop ads start */
+@media screen and (min-width: 728px) {
+			/* desktop ad */
+			.desktop-ad{
+				display: block;
+			}
+
 			.mobile-ad {
 				display: none;
 			}
+}
 
-		}
+@media screen and (max-width: 728px) {
+	/* desktop ad */
+	.desktop-ad{
+		display: none;
+	}
+
+	.mobile-ad {
+		display: block;
+	}
+}
+/*  mobile and desktop ads end */
+
+
+
+		
 
 		
 /* extras start */
